@@ -1,5 +1,24 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: baptiste <baptiste@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2024/05/10 20:06:19 by baptiste          #+#    #+#              #
+#    Updated: 2024/05/10 20:07:43 by baptiste         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 all: print
-	@docker compose -f ./srcs/docker-compose.yml up -d --build
+	@docker compose -f ./srcs/docker-compose.yml up -d
+
+delete:
+	@docker compose -f ./srcs/docker-compose.yml down
+
+stop:
+	@docker compose -f ./srcs/docker-compose.yml stop
+
 
 print:
 	@echo -e '\033[1;32m$$$$$$\                                          $$\     $$\                     \033[0m'
@@ -13,4 +32,3 @@ print:
 	@echo -e '\033[1;32m                                      $$ |                                       \033[0m'
 	@echo -e '\033[1;32m                                      $$ |                                       \033[0m'
 	@echo -e '\033[1;32m                                      \__|                                       \033[0m'
-
