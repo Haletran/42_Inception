@@ -5,7 +5,8 @@ You will virtualize several Docker images, creating them in your new personal vi
 machine.
 
 
-> Remove sudo only access to make  :
+> Useful commands :
 ```
+sudo apt install docker docker-compose -y
 sudo usermod -aG docker $USER
 ```
