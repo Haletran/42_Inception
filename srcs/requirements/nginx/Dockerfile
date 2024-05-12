@@ -1,7 +1,7 @@
-FROM debian:latest
+FROM debian:bookworm
 
 RUN apt update
-RUN apt install -y nginx
+RUN apt install -y nginx openssl
 
 COPY default /etc/nginx/sites-available/.
 
