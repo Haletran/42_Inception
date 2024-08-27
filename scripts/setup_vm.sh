@@ -27,6 +27,10 @@ docker_setup()
     sudo systemctl start docker
     ## install PORTAINER
     docker volume create portainer_data
+    if [ -z $(docker ps -q -f name=portainer) ]; then
+        echo "Portainer already installed"
+        return
+    fi
     docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:2.21.0
 }
 
@@ -46,5 +50,4 @@ docker_setup()
 echo "Updating system"
 pacman -Syu --noconfirm
 docker_setup
-setup_smb
 #git clone https://github.com/Haletran/42_Inception 
