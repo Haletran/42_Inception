@@ -1,5 +1,6 @@
 #!bin/sh
 
+user=bapasqui
 username=bapasqui2
 password=123
 pwd=$(pwd)
@@ -29,9 +30,9 @@ docker_setup()
     docker volume create portainer_data
     if [ -z $(docker ps -q -f name=portainer) ]; then
         echo "Portainer already installed"
-        return
+    else
+       docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:2.21.0
     fi
-    docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:2.21.0
 }
 
 #setup_smb()
