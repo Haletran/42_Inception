@@ -12,10 +12,10 @@ fi
 install_yay()
 {
     echo "Installing yay"
-    pacman -S --needed git base-devel
+    pacman -S --needed git base-devel --noconfirm
     git clone https://aur.archlinux.org/yay.git
     chmod -R 777 yay
-    su -c "cd $pwd/yay && makepkg -si" -l bapasqui
+    su -c "cd $pwd/yay && makepkg -si --noconfirm" -l bapasqui
 }
 
 docker_setup()
