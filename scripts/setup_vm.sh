@@ -33,7 +33,7 @@ setup_smb()
 {
     echo "Setup Samba"
     ## SETUP SAMBA share
-    mkdir inception
+    #mkdir inception
     cp /etc/samba/smb.conf.default /etc/samba/smb.conf
     sudo systemctl enable samba
     sudo systemctl start samba
@@ -46,4 +46,4 @@ echo "Updating system"
 pacman -Syu --noconfirm
 docker_setup
 setup_smb
-git clone https://github.com/Haletran/42_Inception 
+#git clone https://github.com/Haletran/42_Inception 
