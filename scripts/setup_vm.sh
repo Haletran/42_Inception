@@ -1,9 +1,8 @@
 #!bin/sh
 
 username=bapasqui2
+password=123
 pwd=$(pwd)
-
-bash install_yay.sh
 
 if [ "$EUID" -ne 0 ]; then
   echo "Please run this script as root. (Using this command : su - or sudo the file)"
