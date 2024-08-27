@@ -35,8 +35,8 @@ setup_smb()
     ## SETUP SAMBA share
     mkdir inception
     cp /etc/samba/smb.conf.default /etc/samba/smb.conf
-    sudo systemctl enable smbd.socket
-    sudo systemctl start smbd.socket
+    sudo systemctl enable samba
+    sudo systemctl start samba
     useradd $username
     echo -e $password"\n"$password | smbpasswd -s $username
 }
