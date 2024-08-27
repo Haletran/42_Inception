@@ -11,6 +11,7 @@ fi
 ## INSTALL YAY
 install_yay()
 {
+    pacman -S ssh samba git make cmake --noconfirm
     echo "Installing yay"
     pacman -S --needed git base-devel --noconfirm
     git clone https://aur.archlinux.org/yay.git
@@ -52,8 +53,7 @@ setup_smb()
 
 ## UPDATE
 echo "Updating system"
-pacman -Syu
-pacman -S ssh samba git make cmake
+pacman -Syu --noconfirm
 install_yay
 docker_setup
 setup_smb
