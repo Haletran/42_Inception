@@ -7,11 +7,6 @@ if [ "$EUID" -ne 0 ]; then
   exit 1
 fi
 
-## UPDATE
-echo "Updating system"
-
-git clone https://github.com/Haletran/42_Inception /home/$username/inception
-
 ## INSTALL YAY
 install_yay()
 {
@@ -26,7 +21,14 @@ docker_setup()-
 {
     echo "Setup Docker"
     ## INSTALL DOCKER
-    pacman -S docker docker-compose
+    if [ -f /etc/arch-release ]; then
+        pacman -S docker docker-compose
+    else if [ -f /etc/debian_version ]; then
+        apt-get install docker docker-compose
+    else
+        echo "Unsupported OS"
+        exit 1
+    fi
     usermod -aG docker $USER
     ## install PORTAINER
     docker volume create portainer_data
@@ -44,3 +46,24 @@ setup_smb()
     useradd $username
     echo -e $password"\n"$password | smbpasswd -s $username
 }
+
+## UPDATE
+echo "Updating system"
+if [ -f /etc/arch-release ]; then
+    pacman -Syu
+    pacman -S ssh samba git
+    install_yay
+    docker_setup
+    setup_smb
+else if [ -f /etc/debian_version ]; then
+    apt-get update
+    apt-get upgrade
+    apt-get install ssh samba git
+    docker_setup
+    setup_smb
+else
+    echo "Unsupported OS"
+    exit 1
+fi
+
+git clone https://github.com/Haletran/42_Inception 
