@@ -9,22 +9,6 @@ fi
 
 ## UPDATE
 echo "Updating system"
-if [ -f /etc/arch-release ]; then
-    pacman -Syu
-    pacman -S ssh samba
-    install_yay
-    docker_setup
-    setup_smb
-else if [ -f /etc/debian_version ]; then
-    apt-get update
-    apt-get upgrade
-    apt-get install ssh samba
-    docker_setup
-    setup_smb
-else
-    echo "Unsupported OS"
-    exit 1
-fi
 
 git clone https://github.com/Haletran/42_Inception /home/$username/inception
 
@@ -42,14 +26,7 @@ docker_setup()-
 {
     echo "Setup Docker"
     ## INSTALL DOCKER
-    if [ -f /etc/arch-release ]; then
-        pacman -S docker docker-compose
-    else if [ -f /etc/debian_version ]; then
-        apt-get install docker docker-compose
-    else
-        echo "Unsupported OS"
-        exit 1
-    fi
+    pacman -S docker docker-compose
     usermod -aG docker $USER
     ## install PORTAINER
     docker volume create portainer_data
