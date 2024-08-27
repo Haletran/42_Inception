@@ -17,13 +17,13 @@ install_yay()
     makepkg -si
 }
 
-docker_setup()-
+docker_setup()
 {
     echo "Setup Docker"
     ## INSTALL DOCKER
     if [ -f /etc/arch-release ]; then
         pacman -S docker docker-compose
-    else if [ -f /etc/debian_version ]; then
+    elif [ -f /etc/debian_version ]; then
         apt-get install docker docker-compose
     else
         echo "Unsupported OS"
