@@ -11,6 +11,7 @@ fi
 
 docker_setup()
 {
+    pacman -S docker docker-compose git --noconfirm
     echo "Setup Docker"
     ## INSTALL DOCKER
     if [ -f /etc/arch-release ]; then
@@ -29,17 +30,17 @@ docker_setup()
     docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:2.21.0
 }
 
-setup_smb()
-{
-    echo "Setup Samba"
-    ## SETUP SAMBA share
-    #mkdir inception
-    cp /etc/samba/smb.conf.default /etc/samba/smb.conf
-    sudo systemctl enable samba
-    sudo systemctl start samba
-    useradd $username
-    echo -e $password"\n"$password | smbpasswd -s $username
-}
+#setup_smb()
+#{
+#    echo "Setup Samba"
+#    ## SETUP SAMBA share
+#    #mkdir inception
+#    cp /etc/samba/smb.conf.default /etc/samba/smb.conf
+#    sudo systemctl enable samba
+#    sudo systemctl start samba
+#    useradd $username
+#    echo -e $password"\n"$password | smbpasswd -s $username
+#}
 
 ## UPDATE
 echo "Updating system"
