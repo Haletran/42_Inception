@@ -3,21 +3,12 @@
 username=bapasqui2
 pwd=$(pwd)
 
+bash install_yay.sh
+
 if [ "$EUID" -ne 0 ]; then
   echo "Please run this script as root. (Using this command : su - or sudo the file)"
   exit 1
 fi
-
-## INSTALL YAY
-install_yay()
-{
-    pacman -S ssh samba git make cmake --noconfirm
-    echo "Installing yay"
-    pacman -S --needed git base-devel --noconfirm
-    git clone https://aur.archlinux.org/yay.git
-    chmod -R 777 yay
-    su -c "cd $pwd/yay && makepkg -si --noconfirm" -l bapasqui
-}
 
 docker_setup()
 {
@@ -54,7 +45,6 @@ setup_smb()
 ## UPDATE
 echo "Updating system"
 pacman -Syu --noconfirm
-install_yay
 docker_setup
 setup_smb
 git clone https://github.com/Haletran/42_Inception 
