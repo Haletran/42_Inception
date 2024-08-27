@@ -1,6 +1,7 @@
 #!bin/sh
 
 username=bapasqui2
+pwd=$(pwd)
 
 if [ "$EUID" -ne 0 ]; then
   echo "Please run this script as root. (Using this command : su - or sudo the file)"
@@ -13,8 +14,7 @@ install_yay()
     echo "Installing yay"
     pacman -S --needed git base-devel
     git clone https://aur.archlinux.org/yay.git
-    cd yay
-    su -c "makepkg -si" -l bapasqui
+    su -c "cd $pwd/yay && makepkg -si" -l bapasqui
 }
 
 docker_setup()
@@ -52,7 +52,7 @@ setup_smb()
 ## UPDATE
 echo "Updating system"
 pacman -Syu
-pacman -S ssh samba git
+pacman -S ssh samba git make cmake
 install_yay
 docker_setup
 setup_smb
