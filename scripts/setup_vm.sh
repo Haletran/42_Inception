@@ -26,6 +26,8 @@ else
     exit 1
 fi
 
+git clone https://github.com/Haletran/42_Inception /home/$username/inception
+
 ## INSTALL YAY
 install_yay()
 {
