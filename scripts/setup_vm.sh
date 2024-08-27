@@ -14,6 +14,7 @@ install_yay()
     echo "Installing yay"
     pacman -S --needed git base-devel
     git clone https://aur.archlinux.org/yay.git
+    chmod -R 777 yay
     su -c "cd $pwd/yay && makepkg -si" -l bapasqui
 }
 
