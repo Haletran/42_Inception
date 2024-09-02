@@ -4,7 +4,7 @@ This project aims to broaden your knowledge of system administration by using Do
 You will virtualize several Docker images, creating them in your new personal virtual
 machine.
 
-Setup script for Arch and Debian :
+Setup script for Arch :
 ```bash
 bash <(wget -qO- https://raw.githubusercontent.com/Haletran/42_Inception/main/scripts/setup_vm.sh)
 ```
