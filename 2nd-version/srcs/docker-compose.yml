@@ -1,0 +1,23 @@
+services:
+  uptime-kuma:
+    build: requirements/bonus/uptime-kuma
+    container_name: uptime-kuma
+    ports:
+      - "3001:3001"
+    volumes:
+      - ~/data/uptime-kuma:/app/data
+    networks:
+      - inception
+  static-site:
+    build: requirements/bonus/static-site
+    container_name: static-site
+    ports:
+      - "8080:8080"
+    volumes:
+      - ~/data/static-site:/app/data
+    networks:
+      - inception
+
+networks:
+  inception:
+    name: inception
