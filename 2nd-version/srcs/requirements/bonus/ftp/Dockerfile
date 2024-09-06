@@ -6,6 +6,8 @@ RUN apt-get update && \
 COPY tools/vsftpd.conf /etc/vsftpd/vsftpd.conf
 COPY tools/script.sh .
 
+COPY tools/script.sh /var/www/html/script.sh
+
 RUN mkdir -p /var/run/vsftpd/empty && \
     chown root:root /var/run/vsftpd/empty && \
     chmod 755 /var/run/vsftpd/empty
