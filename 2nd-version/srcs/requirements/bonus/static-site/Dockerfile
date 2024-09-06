@@ -1,8 +1,7 @@
 FROM debian:bullseye
 
-
 RUN apt-get update && apt-get upgrade -y && \
-    apt-get install netcat nodejs npm -y
+    apt-get install nodejs npm -y
 
 COPY tools/server.sh /app/server.sh
 COPY tools/index.html /app/index.html
