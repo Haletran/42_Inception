@@ -3,12 +3,11 @@ FROM debian:bullseye
 RUN apt-get update && apt-get upgrade -y && \
     apt-get install nodejs npm -y
 
-COPY tools/server.sh /app/server.sh
-COPY tools/index.html /app/index.html
-COPY tools/stack_dance.mp4 /app/stack_dance.mp4
-
-RUN chmod +x /app/server.sh
+COPY tools/setup.sh /app/setup.sh
+RUN git clone https://github.com/Haletran/Guessthe42Login.git /app/website
+COPY src/db.json /app/website/src/db.json
+RUN chmod +x /app/setup.sh
 
 EXPOSE 8080
 
-CMD ["./app/server.sh"]
+CMD ["./app/setup.sh"]
