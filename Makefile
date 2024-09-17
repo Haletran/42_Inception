@@ -33,9 +33,10 @@ stop:
 
 down:
 	@docker compose -f ./srcs/docker-compose.yml down
-	@docker volume rm srcs_static_data srcs_uptime_data srcs_ftp_data srcs_homarr_data
+	@docker volume rm srcs_static_data srcs_uptime_data srcs_ftp_data srcs_homepage_data
 	@sudo docker rmi $$(docker images -a -q) -f
 	@docker volume prune -f
+	reset
 
 reset:
 	@echo "Resetting all data..."

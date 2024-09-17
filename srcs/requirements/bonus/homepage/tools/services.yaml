@@ -1,0 +1,30 @@
+- Mandatory:
+    - Wordpress:
+        icon: https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngall.com%2Fwp-content%2Fuploads%2F2016%2F05%2FWordPress-Logo-Free-Download-PNG.png&f=1&nofb=1&ipt=f0e0573f633f45e92441cfbb28fb917cc83f6926dc6c184f49bff0ed3ec84b3d&ipo=images
+        href: http://localhost/
+        description: Wordpress is awesome
+    - Nginx:
+        icon: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngrepo.com%2Fdownload%2F354115%2Fnginx.png&f=1&nofb=1&ipt=74154d98b18d769541882965758d8be373565da97f236f3872f50acaaf444eea&ipo=images
+        href: http://localhost/
+        description: Nginx is awesome
+    - MariaDB:
+        icon: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets.stickpng.com%2Fthumbs%2F62deb17dff3c6e4b8b5de8c9.png&f=1&nofb=1&ipt=8776c0f331196d49ca69b9b9f05488aa5a0f0ee0e73fc200b61dc124d544eaf1&ipo=images
+        href: http://localhost/
+        description: MariaDB is awesome
+
+- Bonus:
+    - Static_site:
+        icon: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn4.iconfinder.com%2Fdata%2Ficons%2Fmiscellaneous-131-solid%2F128%2Fwho_guess_people_profile_question_anonymous_suspicious_anybody-512.png&f=1&nofb=1&ipt=ec9132f04771352802affa21d4615656269b91116faca3e7bca168aa3f2c5451&ipo=images
+        href: http://bapasqui.42.fr:8080
+        description: GuessTheLogin game
+        ping: http://10.11.249.22:8080
+    - FTP:
+        icon: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn-icons-png.flaticon.com%2F512%2F6303%2F6303288.png&f=1&nofb=1&ipt=228433c9f8602dd0c56e3ef00c5163c0f2cb828d5c7fe7610057d87ba1cfbcf9&ipo=images
+        href: ftp://bapasqui.42.fr:21
+        description: FTP server
+        ping: http://10.11.249.22:21
+    - Uptime-Kuma:
+        icon: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic-00.iconduck.com%2Fassets.00%2Fuptime-kuma-icon-2048x1892-iigw6pmz.png&f=1&nofb=1&ipt=7d24f7436d9791062d101682ee97207d38bee17feb94c116b69b7bf23e15e162&ipo=images
+        href: http://bapasqui.42.fr:3001
+        description: Uptime-Kuma
+        ping: http://10.11.249.22:3001

@@ -38,7 +38,7 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - homepage_data:/app/data
+      - homepage_data:/app/
 networks:
   inception:
     name: inception
