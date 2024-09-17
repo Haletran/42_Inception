@@ -4,7 +4,7 @@ RUN apt-get update && apt-get upgrade -y && \
     apt-get install nodejs npm -y
 
 COPY tools/setup.sh /app/setup.sh
-RUN git clone https://github.com/Haletran/Guessthe42Login.git /app/website
+RUN git clone https://github.com/Haletran/Guess-the-Login /app/website
 COPY src/db.json /app/website/src/db.json
 RUN chmod +x /app/setup.sh
 

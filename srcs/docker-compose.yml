@@ -1,33 +1,51 @@
 services:
-  nginx:
-    build: requirements/nginx/.
-    container_name: nginx
+  uptime-kuma:
+    build: requirements/bonus/uptime-kuma
+    container_name: uptime-kuma
     ports:
-      - "80:80"
+      - "3001:3001"
     volumes:
-      - ~/home/baptiste/data:/var/www/html
-      - ./web:/var/www/html
+      - uptime_data:/app/data
     networks:
       - inception
-  wordpress:
-    build: requirements/wordpress/.
-    container_name : wordpress
-    depends_on:
-      - mariadb
+  static-site:
+    build: requirements/bonus/static-site
+    container_name: static-site
+    ports:
+      - "8080:8080"
     volumes:
-      - ~/home/baptiste/data:/var/www/html
-      - ./web:/var/www/html
+      - static_data:/app/data
     networks:
       - inception
-  mariadb:
-    build: requirements/mariadb/.
-    container_name: mariadb
+  ftp:
+    build: requirements/bonus/ftp
+    container_name: ftp
+    ports:
+      - "21:21"
+      - "21100-21110:21100-21110"
     volumes:
-      - ~/home/baptiste/data:/var/lib/mysql
-      - ./database:/var/lib/mysql
-    networks:
-      - inception
+      - ftp_data:/app/data
 
 networks:
   inception:
     name: inception
+
+volumes:
+  static_data:
+    driver: local
+    driver_opts:
+      type: none
+      device: /home/bapasqui/data/static_site
+      o: bind
+  uptime_data:
+    driver: local
+    driver_opts:
+      type: none
+      device: /home/bapasqui/data/uptime-kuma
+      o: bind
+  ftp_data:
+    driver: local
+    driver_opts:
+      type: none
+      device: /home/bapasqui/data/ftp
+      o: bind
