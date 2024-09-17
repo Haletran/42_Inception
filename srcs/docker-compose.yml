@@ -8,6 +8,7 @@ services:
       - uptime_data:/app/data
     networks:
       - inception
+    restart: on-failure
   static-site:
     build: requirements/bonus/static-site
     container_name: static-site
@@ -17,15 +18,27 @@ services:
       - static_data:/app/data
     networks:
       - inception
+    restart: on-failure
   ftp:
     build: requirements/bonus/ftp
     container_name: ftp
     ports:
       - "21:21"
       - "21100-21110:21100-21110"
+    networks:
+        - inception
     volumes:
       - ftp_data:/app/data
-
+    restart: on-failure
+  homepage:
+    build: requirements/bonus/homepage
+    container_name: homepage
+    networks:
+      - inception
+    ports:
+      - "3000:3000"
+    volumes:
+      - homepage_data:/app/data
 networks:
   inception:
     name: inception
@@ -48,4 +61,10 @@ volumes:
     driver_opts:
       type: none
       device: /home/bapasqui/data/ftp
+      o: bind
+  homepage_data:
+    driver: local
+    driver_opts:
+      type: none
+      device: /home/bapasqui/data/homepage
       o: bind

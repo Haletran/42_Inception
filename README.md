@@ -8,3 +8,10 @@ Setup script for Arch :
 ```bash
 bash <(wget -qO- https://raw.githubusercontent.com/Haletran/42_Inception/main/scripts/setup_vm.sh)
 ```
+
+## TODO
+
+- WORDPRESS
+-  NGINX avec TLSv1.2 ou TLSv1.3 uniquement
+-  WordPress + php-fpm
+-  MariaDB 

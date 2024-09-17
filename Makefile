@@ -21,18 +21,29 @@ all: print
 	@echo $(BGREEN)"\n[ MANDATORY ] :"$(NC)
 	@echo $(BCYAN)"-> Wordpress :"$(NC)
 	@echo $(BGREEN)"\n[ BONUS ] :"$(NC)
-	@echo $(BCYAN)"-> Uptime Kuma :"$(NC)" http://10.11.249.22:3001"
+	@echo $(BCYAN)"-> Uptime Kuma :"$(NC)" http://bapasqui.42.fr:3001"
 	@echo $(BCYAN)"-> FTP :"$(NC)" ftp://10.11.249.22:21/"
-	@echo $(BCYAN)"-> Static Site :"$(NC)" http://10.11.249.22:8080"
-
-down:
-	@docker compose -f ./srcs/docker-compose.yml down
+	@echo $(BCYAN)"-> Static Site :"$(NC)" http://bapasqui.42.fr:8080"
+	@echo $(BCYAN)"-> Homepage :"$(NC)" http://bapasqui.42.fr:3000"
+	@echo $(BGREEN)"\n[ DEBUG ] :"$(NC)
+	@echo $(BCYAN)"-> Portainer :"$(NC)" https://bapasqui.42.fr:9443"
 
 stop:
 	@docker compose -f ./srcs/docker-compose.yml stop
-	@docker volume rm srcs_static_data srcs_uptime_data srcs_ftp_data
+
+down:
+	@docker compose -f ./srcs/docker-compose.yml down
+	@docker volume rm srcs_static_data srcs_uptime_data srcs_ftp_data srcs_homarr_data
+	@sudo docker rmi $$(docker images -a -q) -f
 	@docker volume prune -f
-	@docker image prune -f
+
+reset:
+	@echo "Resetting all data..."
+	@sudo rm -rf /home/bapasqui/data/*
+	@mkdir -p ~/data/static_site
+	@mkdir -p ~/data/uptime-kuma
+	@mkdir -p ~/data/ftp
+	@mkdir -p ~/data/homepage
 
 re: all
 
