@@ -1,4 +1,15 @@
 services:
+  nginx:
+    build: requirements/mandatory/nginx
+    container_name: nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    networks:
+      - inception
+    volumes:
+      - wordpress_data:/var/www/html
+    restart: on-failure
   uptime-kuma:
     build: requirements/bonus/uptime-kuma
     container_name: uptime-kuma
@@ -81,4 +92,10 @@ volumes:
     driver_opts:
       type: none
       device: /home/bapasqui/data/adminer
+      o: bind
+  wordpress_data:
+    driver: local
+    driver_opts:
+      type: none
+      device: /home/bapasqui/data/wordpress
       o: bind

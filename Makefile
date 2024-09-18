@@ -24,7 +24,7 @@ all: print
 	@echo $(BCYAN)"-> Uptime Kuma :"$(NC)" http://bapasqui.42.fr:3001"
 	@echo $(BCYAN)"-> FTP :"$(NC)" ftp://10.11.249.22:21/"
 	@echo $(BCYAN)"-> Static Site :"$(NC)" http://bapasqui.42.fr:8080"
-	@echo $(BCYAN)"-> Homepage :"$(NC)" http://bapasqui.42.fr:3000"
+	@echo $(BCYAN)"-> Homepage :"$(NC)" http://bapasqui.42.fr:3000" "(take a few seconds to load : js slow)"
 	@echo $(BGREEN)"\n[ DEBUG ] :"$(NC)
 	@echo $(BCYAN)"-> Portainer :"$(NC)" https://bapasqui.42.fr:9443"
 
@@ -39,6 +39,7 @@ down:
 	-docker volume prune -f
 	-docker image prune -f -a
 	-docker network prune -f
+	-docker builder prune --all
 	@echo "Do you want to remove all data ? [y/n]" && read ans && [ $${ans:-n} = y ] && make reset || echo "Data kept."
 
 reset:
@@ -49,9 +50,10 @@ reset:
 	@mkdir -p ~/data/ftp
 	@mkdir -p ~/data/homepage
 	@mkdir -p ~/data/adminer
+	@mkdir -p ~/data/wordpress
 
 clean:
-	docker system prune --all --volumes
+	@docker system prune --all --volumes
 
 re: all
 
