@@ -1,0 +1,2782 @@
+[
+  {
+    "image_url": "https://cdn.intra.42.fr/users/149c8962600f8abf4754ee116592a15d/small_julthoma.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/a61f07022949977abb17dd7adce68a3d/medium_julthoma.jpg",
+    "login": "julthoma",
+    "level": 3.25,
+    "intra": "https://profile.intra.42.fr/users/julthoma",
+    "correction_point": 1,
+    "wallet": 82,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/0b2343e2bc7dd988a800ffcbdc671a03/small_spicard.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/b0504768418462d0f11f3d222a866ab6/medium_spicard.jpg",
+    "login": "spicard",
+    "level": 3.21,
+    "intra": "https://profile.intra.42.fr/users/spicard",
+    "correction_point": 3,
+    "wallet": 40,
+    "location": "2B1"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/408819b9ecc12459e847129d20a195df/small_dboire.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/60318ee34e60d4286091eae24fd06d10/medium_dboire.jpg",
+    "login": "dboire",
+    "level": 6.88,
+    "intra": "https://profile.intra.42.fr/users/dboire",
+    "correction_point": 5,
+    "wallet": 140,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/340072d0ac0c387f28350db7ab83992d/small_lisambet.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/538fa98f1cb35496abd7975d96dbbd36/medium_lisambet.jpg",
+    "login": "lisambet",
+    "level": 3.76,
+    "intra": "https://profile.intra.42.fr/users/lisambet",
+    "correction_point": 3,
+    "wallet": 10,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/a6bc0b10c732652796b6bb4b03b8d302/small_jwadie-a.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/4bfe01b277d2e9e5a5e2c9d7e6e5bc19/medium_jwadie-a.JPG",
+    "login": "jwadie-a",
+    "level": 11.43,
+    "intra": "https://profile.intra.42.fr/users/jwadie-a",
+    "correction_point": -2,
+    "wallet": 510,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/050587c4c1cf44513fafd788720f8b4a/small_aboulore.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/809fbf6d5204320b9be42e760c50e69a/medium_aboulore.jpg",
+    "login": "aboulore",
+    "level": 4.14,
+    "intra": "https://profile.intra.42.fr/users/aboulore",
+    "correction_point": 0,
+    "wallet": 200,
+    "location": "1B3"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/04948a4dd2ffc6f67bd4e0bf0463c366/small_tsaboua.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/3a64b5b06c5d3685e9dc5d108f1576f0/medium_tsaboua.jpg",
+    "login": "tsaboua",
+    "level": 3.23,
+    "intra": "https://profile.intra.42.fr/users/tsaboua",
+    "correction_point": 0,
+    "wallet": 10,
+    "location": "2B2"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/ed71d93ccf395f221306ce8345b988d1/small_rwintgen.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/3946eceb3e0f3aa7953a73ff063def30/medium_rwintgen.jpg",
+    "login": "rwintgen",
+    "level": 4.11,
+    "intra": "https://profile.intra.42.fr/users/rwintgen",
+    "correction_point": 5,
+    "wallet": 40,
+    "location": "1A5"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/8ad245365fb1c7b385eecea146b0ec25/small_hbelle.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/a4608627e45842453ae98290d05c1d5f/medium_hbelle.jpg",
+    "login": "hbelle",
+    "level": 9.12,
+    "intra": "https://profile.intra.42.fr/users/hbelle",
+    "correction_point": 10,
+    "wallet": 140,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/b88e45fd854961cd54d796e80ec4dc28/small_tmekhzou.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/4d9378d05ed30c310b0e4e3f43631acf/medium_tmekhzou.jpg",
+    "login": "tmekhzou",
+    "level": 5.12,
+    "intra": "https://profile.intra.42.fr/users/tmekhzou",
+    "correction_point": 2,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/9905217450f41bc3a0d6c22654aad2ae/small_gcannaud.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/e258399bb9b6625764ad2438d9340d09/medium_gcannaud.JPG",
+    "login": "gcannaud",
+    "level": 3.83,
+    "intra": "https://profile.intra.42.fr/users/gcannaud",
+    "correction_point": 6,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/e97f2ae1836db85796b6bb9e08883562/small_ede-lang.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/5231a82f7b3498794ddc7abac3ee3098/medium_ede-lang.jpg",
+    "login": "ede-lang",
+    "level": 4.13,
+    "intra": "https://profile.intra.42.fr/users/ede-lang",
+    "correction_point": 3,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/4c4822ea31f9beeda69fcf30b3010a15/small_mpierrot.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/702debb4ecefeaf040b6f9a857a4d71c/medium_mpierrot.jpg",
+    "login": "mpierrot",
+    "level": 3.26,
+    "intra": "https://profile.intra.42.fr/users/mpierrot",
+    "correction_point": 7,
+    "wallet": 106,
+    "location": "3B1"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/e7a4c87aa09909a4295568e3bae044d5/small_aranger.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/9511fd2d216d408f80e33cc11a78ad34/medium_aranger.jpg",
+    "login": "aranger",
+    "level": 8.73,
+    "intra": "https://profile.intra.42.fr/users/aranger",
+    "correction_point": 1,
+    "wallet": 140,
+    "location": "2A3"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/4595b34906c1429d10cb0b0b1dc2d59b/small_svogrig.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/414ea17553507599b9750c6947b0a181/medium_svogrig.JPG",
+    "login": "svogrig",
+    "level": 4.01,
+    "intra": "https://profile.intra.42.fr/users/svogrig",
+    "correction_point": 7,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/9aff9d749966b1e9cfc7e0c9748ac899/small_adorlac.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/c1608f6138cb713dc43c446f39f3403d/medium_adorlac.jpg",
+    "login": "adorlac",
+    "level": 4.12,
+    "intra": "https://profile.intra.42.fr/users/adorlac",
+    "correction_point": 8,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/aa27166567c2e57c4dfec27a3a114c2e/small_kprigent.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/2c65272b8f463de7e9a9095cd54d537c/medium_kprigent.jpg",
+    "login": "kprigent",
+    "level": 8.74,
+    "intra": "https://profile.intra.42.fr/users/kprigent",
+    "correction_point": 3,
+    "wallet": 140,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/b521975d4cba086357e836a2bdeff2e6/small_ygaiffie.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/8a1d36112883f89140dc1f9a5a512825/medium_ygaiffie.JPG",
+    "login": "ygaiffie",
+    "level": 4.11,
+    "intra": "https://profile.intra.42.fr/users/ygaiffie",
+    "correction_point": 2,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/f8278401facf5cd99ec7fcbca1f1bec7/small_smortemo.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/214d07635eb11b9f3c30be9a4d51134f/medium_smortemo.jpg",
+    "login": "smortemo",
+    "level": 4.31,
+    "intra": "https://profile.intra.42.fr/users/smortemo",
+    "correction_point": 3,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/dd643231fc6c3e090e6ca428fd3eb965/small_mbouchet.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/5f1118b143cc24a40242097a8c46f59d/medium_mbouchet.jpg",
+    "login": "mbouchet",
+    "level": 4.13,
+    "intra": "https://profile.intra.42.fr/users/mbouchet",
+    "correction_point": 4,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/5785be14e57b2b01587e5048a96f3541/small_nle-roux.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/e26906fdf43a7890457599ab18085b37/medium_nle-roux.jpg",
+    "login": "nle-roux",
+    "level": 2.94,
+    "intra": "https://profile.intra.42.fr/users/nle-roux",
+    "correction_point": 23,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/91ef50ec573459da1088f8df9df4a0ea/small_ahuge.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/b5f1fde09ebc24e6114880ecff09ac71/medium_ahuge.jpg",
+    "login": "ahuge",
+    "level": 4.39,
+    "intra": "https://profile.intra.42.fr/users/ahuge",
+    "correction_point": 8,
+    "wallet": 40,
+    "location": "1C1"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/7d25bb0736d62b2de74a6dd115340a47/small_sylabbe.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/f124f24dcd7ecc7056d4fd768ccd4cfe/medium_sylabbe.jpg",
+    "login": "sylabbe",
+    "level": 4.31,
+    "intra": "https://profile.intra.42.fr/users/sylabbe",
+    "correction_point": 2,
+    "wallet": 40,
+    "location": "1A1"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/72260dd4fc1c1d154b93d34bf2012a83/small_amalangi.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/0488e4a4d7461e66ecd6f2ccf9aae7e7/medium_amalangi.jpg",
+    "login": "amalangi",
+    "level": 4.29,
+    "intra": "https://profile.intra.42.fr/users/amalangi",
+    "correction_point": 4,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/10fd12e5bebc52042920b1f1d30297e9/small_lvan-slu.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/e155b881fd8111412888df35d6b77629/medium_lvan-slu.jpg",
+    "login": "lvan-slu",
+    "level": 3.2,
+    "intra": "https://profile.intra.42.fr/users/lvan-slu",
+    "correction_point": 3,
+    "wallet": 10,
+    "location": "1A4"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/6adb4ca6a0caa6dda8c7ecf6be3ce150/small_wneel.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/db6435de962d14cc262a19651615b235/medium_wneel.jpg",
+    "login": "wneel",
+    "level": 4.09,
+    "intra": "https://profile.intra.42.fr/users/wneel",
+    "correction_point": 1,
+    "wallet": 64,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/316c81c8f56029bad4cd0f13e76059e4/small_asyvash.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/5e40156caa691820e842adb509b84087/medium_asyvash.jpg",
+    "login": "asyvash",
+    "level": 5.24,
+    "intra": "https://profile.intra.42.fr/users/asyvash",
+    "correction_point": 0,
+    "wallet": 140,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/822ec549f322af01df0ec8d3753aafb0/small_qdeviann.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/aaca1e48155c29466d73d5f4e4e96655/medium_qdeviann.jpg",
+    "login": "qdeviann",
+    "level": 5.2,
+    "intra": "https://profile.intra.42.fr/users/qdeviann",
+    "correction_point": 1,
+    "wallet": 40,
+    "location": "1A2"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/a82b24219a3e212788a56d0f74c92273/small_abernade.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/ca68d4026a6c0f69e69a367e3268a753/medium_abernade.JPG",
+    "login": "abernade",
+    "level": 3.79,
+    "intra": "https://profile.intra.42.fr/users/abernade",
+    "correction_point": 4,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/4ea572080b176a1551da67a1574e3333/small_bapasqui.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/ebff1d0ec01cb508b2f711208a8b44b3/medium_bapasqui.jpg",
+    "login": "bapasqui",
+    "level": 5.24,
+    "intra": "https://profile.intra.42.fr/users/bapasqui",
+    "correction_point": 2,
+    "wallet": 40,
+    "location": "1A3"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/90334765fa50754277783437e5920d08/small_aduriez.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/748c7283da6e595e71b629642f6fc67f/medium_aduriez.jpg",
+    "login": "aduriez",
+    "level": 3.2,
+    "intra": "https://profile.intra.42.fr/users/aduriez",
+    "correction_point": 7,
+    "wallet": 29,
+    "location": "1A7"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/4125facea6c232ba0e6d8ea9f9928d9e/small_bberkrou.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/9cc91c5c57c836dd0ddc96943c3ee41a/medium_bberkrou.jpg",
+    "login": "bberkrou",
+    "level": 8.95,
+    "intra": "https://profile.intra.42.fr/users/bberkrou",
+    "correction_point": 3,
+    "wallet": 80,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/d3ed08dacb6fc8761d1e79fdcbf147f5/small_tappourc.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/5f4b09c894e14199b758d953bc4cf262/medium_tappourc.jpg",
+    "login": "tappourc",
+    "level": 4.95,
+    "intra": "https://profile.intra.42.fr/users/tappourc",
+    "correction_point": 15,
+    "wallet": 140,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/cf07cd3660c83a61656bd98fb79c0978/small_dpoltura.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/95ba2aacdf4e4fd15ea7e0cdc2b55272/medium_dpoltura.jpg",
+    "login": "dpoltura",
+    "level": 3.19,
+    "intra": "https://profile.intra.42.fr/users/dpoltura",
+    "correction_point": 8,
+    "wallet": 64,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/248931fc94fd0b09706e011f149075ab/small_pirulenc.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/42644ecb3e48f8f16d4b26c80e3425bf/medium_pirulenc.jpg",
+    "login": "pirulenc",
+    "level": 4.08,
+    "intra": "https://profile.intra.42.fr/users/pirulenc",
+    "correction_point": 4,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/ec65124d2e6c674975a268e12a47d5a3/small_gtskitis.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/7e4ddddb924cdd8276001fc8f2f242c8/medium_gtskitis.jpg",
+    "login": "gtskitis",
+    "level": 11.33,
+    "intra": "https://profile.intra.42.fr/users/gtskitis",
+    "correction_point": 2,
+    "wallet": 145,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/607d96a9ee95bbd74e88a06861e3a67e/small_imehdid.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/1ba6378dfc755a502ea174f2ee973256/medium_imehdid.jpg",
+    "login": "imehdid",
+    "level": 5.87,
+    "intra": "https://profile.intra.42.fr/users/imehdid",
+    "correction_point": 3,
+    "wallet": 140,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/bc1b0e584d6c7db2361cfaf98fba3aa6/small_uguidoni.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/1c1d2cdd1762bb7c2faa594818aea6f8/medium_uguidoni.JPG",
+    "login": "uguidoni",
+    "level": 3.32,
+    "intra": "https://profile.intra.42.fr/users/uguidoni",
+    "correction_point": 8,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/899f7f4d182a83cde37e364892264bcf/small_nledent.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/43256e4a670ab5cdfd7b85a10fe3bb58/medium_nledent.jpg",
+    "login": "nledent",
+    "level": 8.82,
+    "intra": "https://profile.intra.42.fr/users/nledent",
+    "correction_point": 0,
+    "wallet": 140,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/c4c8b63d493182effcd44636d070c8de/small_ppitzini.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/933067697ab80b54fb0b580b13966c11/medium_ppitzini.jpg",
+    "login": "ppitzini",
+    "level": 4.25,
+    "intra": "https://profile.intra.42.fr/users/ppitzini",
+    "correction_point": 0,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/af91d914bc34e8aa25edc4e65a0822f8/small_cpeterea.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/bdb1920c48c690db33b77f0be2a629ed/medium_cpeterea.jpg",
+    "login": "cpeterea",
+    "level": 8.06,
+    "intra": "https://profile.intra.42.fr/users/cpeterea",
+    "correction_point": 7,
+    "wallet": 48,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/81b658f7cf6a77063016b98829610421/small_bmagere.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/135a2e82286e527d1d0256eae03204d7/medium_bmagere.jpg",
+    "login": "bmagere",
+    "level": 3.22,
+    "intra": "https://profile.intra.42.fr/users/bmagere",
+    "correction_point": 2,
+    "wallet": 34,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/5e4224c146b574297709066bc39768f6/small_ehalliez.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/cd3dd7195d2fb5edd593043850cf7ae9/medium_ehalliez.jpg",
+    "login": "ehalliez",
+    "level": 8.9,
+    "intra": "https://profile.intra.42.fr/users/ehalliez",
+    "correction_point": 4,
+    "wallet": 640,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/fb2177d88193f8bdeff596120e33a900/small_bcarolle.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/7116b8c74bf1acad18aba1e83cacd904/medium_bcarolle.JPG",
+    "login": "bcarolle",
+    "level": 9,
+    "intra": "https://profile.intra.42.fr/users/bcarolle",
+    "correction_point": 8,
+    "wallet": 645,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/ef0b965df746379d110b8fa9675d176e/small_ycostode.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/4cea2c24d638568a1dce7ab45f6ea482/medium_ycostode.JPG",
+    "login": "ycostode",
+    "level": 7.6899999999999995,
+    "intra": "https://profile.intra.42.fr/users/ycostode",
+    "correction_point": 3,
+    "wallet": 145,
+    "location": "1G6"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/b502615734aa622f63e81838792f032a/small_egomez.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/9be77fc23dafa601b9dc6be20797e015/medium_egomez.JPG",
+    "login": "egomez",
+    "level": 4.08,
+    "intra": "https://profile.intra.42.fr/users/egomez",
+    "correction_point": 1,
+    "wallet": 82,
+    "location": "1F4"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/22000c27caba9b2d4ea80c3518321aa7/small_bvasseur.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/16fc015898ddb65bdaba8ce46679517a/medium_bvasseur.jpg",
+    "login": "bvasseur",
+    "level": 5.35,
+    "intra": "https://profile.intra.42.fr/users/bvasseur",
+    "correction_point": 3,
+    "wallet": 140,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/d52edaf7cfa34aab2bf2f82c0d8f17cf/small_maamine.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/7f839c02ad14e1729794a34d9930c0d4/medium_maamine.jpg",
+    "login": "maamine",
+    "level": 3.8,
+    "intra": "https://profile.intra.42.fr/users/maamine",
+    "correction_point": 4,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/9738b6d9c46ebfbc4fabc1b1b43a0364/small_augougea.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/54c8ae440b289a981c5eebab8d8c6c6b/medium_augougea.jpg",
+    "login": "augougea",
+    "level": 5.11,
+    "intra": "https://profile.intra.42.fr/users/augougea",
+    "correction_point": 7,
+    "wallet": 140,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/3902249ea5a2559d7bc706616d6634eb/small_alperrot.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/c2a5eabfc11c26e91e859559c65ff0bd/medium_alperrot.jpg",
+    "login": "alperrot",
+    "level": 3.23,
+    "intra": "https://profile.intra.42.fr/users/alperrot",
+    "correction_point": 0,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/3290cdf47a097fd819f2715d82cc4989/small_locharve.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/6a0b06a42bacc1d06832e59de84d2841/medium_locharve.jpg",
+    "login": "locharve",
+    "level": 4.31,
+    "intra": "https://profile.intra.42.fr/users/locharve",
+    "correction_point": 1,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/bb38890950f8ab61c6a3056143f20164/small_ymarques.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/852fc07c48fbb671f46a3348a1f2afce/medium_ymarques.jpg",
+    "login": "ymarques",
+    "level": 4.13,
+    "intra": "https://profile.intra.42.fr/users/ymarques",
+    "correction_point": 1,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/db59b8146601ac8fa73965c670e88764/small_dosokin.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/28d35f089e5895d7b8ad93c016055dc3/medium_dosokin.jpg",
+    "login": "dosokin",
+    "level": 8.71,
+    "intra": "https://profile.intra.42.fr/users/dosokin",
+    "correction_point": 5,
+    "wallet": 135,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/cc4aaffe29d0b1a967fc0fdcb8b82dc2/small_mrouault.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/85d7de5e2eb495feb6d9cfd3b6ab3f3b/medium_mrouault.jpg",
+    "login": "mrouault",
+    "level": 7.93,
+    "intra": "https://profile.intra.42.fr/users/mrouault",
+    "correction_point": 1,
+    "wallet": 140,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/87335a068811192383a02809f0dc160d/small_kbutor-b.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/6acaf4fe7ad40e635358804ed9523262/medium_kbutor-b.jpg",
+    "login": "kbutor-b",
+    "level": 8.48,
+    "intra": "https://profile.intra.42.fr/users/kbutor-b",
+    "correction_point": 4,
+    "wallet": 140,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/367eae6a9a11316503272e8d345d53c3/small_tde-la-r.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/05462d0255d1175a5e05abe0e2b5e9c0/medium_tde-la-r.jpg",
+    "login": "tde-la-r",
+    "level": 4.6899999999999995,
+    "intra": "https://profile.intra.42.fr/users/tde-la-r",
+    "correction_point": 5,
+    "wallet": 140,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/79143abc6b39e96cf0596bb5a9de1d43/small_gmarre.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/6750ed645d198a936852c64bcf521e1c/medium_gmarre.jpg",
+    "login": "gmarre",
+    "level": 7.6899999999999995,
+    "intra": "https://profile.intra.42.fr/users/gmarre",
+    "correction_point": 3,
+    "wallet": 140,
+    "location": "1G5"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/bfd529355e68f83be413e257941ccef6/small_amolbert.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/293f74e77c0c81f1eb1bfdf87fdc2839/medium_amolbert.jpg",
+    "login": "amolbert",
+    "level": 5.29,
+    "intra": "https://profile.intra.42.fr/users/amolbert",
+    "correction_point": 4,
+    "wallet": 140,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/845108cb2bb0a93bb740e5c03997ca60/small_derey.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/7fcdbd189742b6d8214551658012ff2e/medium_derey.jpg",
+    "login": "derey",
+    "level": 4.11,
+    "intra": "https://profile.intra.42.fr/users/derey",
+    "correction_point": 7,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/6a71effe3ae289e34a1d525a31b5193b/small_ppuivif.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/b9e3aa20c0fe218194bcec115e5346af/medium_ppuivif.jpg",
+    "login": "ppuivif",
+    "level": 3.77,
+    "intra": "https://profile.intra.42.fr/users/ppuivif",
+    "correction_point": 12,
+    "wallet": 40,
+    "location": "1F6"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/5f78ea847c678622ed8006cd9d8ae1d9/small_gangouil.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/b5cbba866ea890320fde91ab8fcaec91/medium_gangouil.jpg",
+    "login": "gangouil",
+    "level": 6.85,
+    "intra": "https://profile.intra.42.fr/users/gangouil",
+    "correction_point": 2,
+    "wallet": 95,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/520f27de22248eea951e304ceba3ade3/small_bdany.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/0a8e3aa9a1cb09e2d07d6b0eaeb6121c/medium_bdany.jpg",
+    "login": "bdany",
+    "level": 4.08,
+    "intra": "https://profile.intra.42.fr/users/bdany",
+    "correction_point": 0,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/a1856a04ec1f575aa4913dda58651966/small_trebours.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/aab7fb53dbbf3a025f186e70a1fe7520/medium_trebours.jpg",
+    "login": "trebours",
+    "level": 4.08,
+    "intra": "https://profile.intra.42.fr/users/trebours",
+    "correction_point": 2,
+    "wallet": 124,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/08af503c4df66adbe570a0c1f444efc1/small_drabarza.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/2379bcc23723e8a897495dfa8403327f/medium_drabarza.jpg",
+    "login": "drabarza",
+    "level": 3.91,
+    "intra": "https://profile.intra.42.fr/users/drabarza",
+    "correction_point": 2,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/664256f28f266643887b02427226fac6/small_bchene.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/d7ca9dba4214a1c55cc6f42724a39ebc/medium_bchene.jpg",
+    "login": "bchene",
+    "level": 4.33,
+    "intra": "https://profile.intra.42.fr/users/bchene",
+    "correction_point": 6,
+    "wallet": 45,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/032457dbd208a43797f22befd3112c46/small_cbourre.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/ab711868f28221361aab7fae26963e7e/medium_cbourre.JPG",
+    "login": "cbourre",
+    "level": 7.13,
+    "intra": "https://profile.intra.42.fr/users/cbourre",
+    "correction_point": 29,
+    "wallet": 516,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/b10ad2d57ab7b905b24a1bb93e91a373/small_rgobet.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/f714e0300dbfa10d598a49fe1ec19313/medium_rgobet.jpg",
+    "login": "rgobet",
+    "level": 4.23,
+    "intra": "https://profile.intra.42.fr/users/rgobet",
+    "correction_point": 13,
+    "wallet": 166,
+    "location": "1C5"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/01da0a86b0380c1fdb79d6faf80e06cb/small_natrijau.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/415fc673203ccfd9e35147b6ae0d8fbd/medium_natrijau.jpg",
+    "login": "natrijau",
+    "level": 4.07,
+    "intra": "https://profile.intra.42.fr/users/natrijau",
+    "correction_point": 2,
+    "wallet": 250,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/e84b9532aa0df512fa2465f927d3baab/small_tdelage.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/517f7d84eac8c10bcefeefa8739033e7/medium_tdelage.jpg",
+    "login": "tdelage",
+    "level": 4.8,
+    "intra": "https://profile.intra.42.fr/users/tdelage",
+    "correction_point": 8,
+    "wallet": 82,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/2f25a599611b8cf3a3e7b29e53391834/small_mscheman.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/7ef50750495647f2f34b1e9c42c1239d/medium_mscheman.jpg",
+    "login": "mscheman",
+    "level": 4.34,
+    "intra": "https://profile.intra.42.fr/users/mscheman",
+    "correction_point": 1,
+    "wallet": 64,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/b4ccf26251911eff85e8ea24721bfefd/small_nberduck.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/356cc29203cfaa9fafda52eda4de5c11/medium_nberduck.jpg",
+    "login": "nberduck",
+    "level": 3.23,
+    "intra": "https://profile.intra.42.fr/users/nberduck",
+    "correction_point": 0,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/695087717fd6873591b90dcae0b6253d/small_ademaill.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/5a1988c5ac47d59ff962e38bfdd4c4c1/medium_ademaill.jpg",
+    "login": "ademaill",
+    "level": 4.12,
+    "intra": "https://profile.intra.42.fr/users/ademaill",
+    "correction_point": 4,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/e8722fa6bcee736747c0b425813ae64c/small_vnavarre.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/287c5d46b860471f91f35a83c32058c3/medium_vnavarre.jpg",
+    "login": "vnavarre",
+    "level": 3.79,
+    "intra": "https://profile.intra.42.fr/users/vnavarre",
+    "correction_point": -2,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/d2baef0cc8ec6b23c76bf53b5f2daf2e/small_tchartie.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/eeba2eda12d8d2c2504a8a1844095097/medium_tchartie.jpg",
+    "login": "tchartie",
+    "level": 4.15,
+    "intra": "https://profile.intra.42.fr/users/tchartie",
+    "correction_point": 4,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/e5779ec0516e3881f9ee554a425403ff/small_gmersch.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/ef851c11922c6a7d276716f17a37d9fa/medium_gmersch.jpg",
+    "login": "gmersch",
+    "level": 4.47,
+    "intra": "https://profile.intra.42.fr/users/gmersch",
+    "correction_point": 0,
+    "wallet": 82,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/8db1a7a62ab33d8b2a6df9b0444fb81b/small_mhaouas.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/c467b7a1fd5f4b1b1e11c22bcfb833e2/medium_mhaouas.jpg",
+    "login": "mhaouas",
+    "level": 4.68,
+    "intra": "https://profile.intra.42.fr/users/mhaouas",
+    "correction_point": 3,
+    "wallet": 88,
+    "location": "1G3"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/707de35d3fad159d2a7292867fb7e83e/small_tebandam.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/5452ebb406acfdd6e296801cb94cfb88/medium_tebandam.jpg",
+    "login": "tebandam",
+    "level": 4.28,
+    "intra": "https://profile.intra.42.fr/users/tebandam",
+    "correction_point": 20,
+    "wallet": 250,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/55a1b127e74b65d20a4d53ed20f269a5/small_msoubrou.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/5c71d22f5f534e42ffa50d9878fd36a0/medium_msoubrou.jpg",
+    "login": "msoubrou",
+    "level": 8.7,
+    "intra": "https://profile.intra.42.fr/users/msoubrou",
+    "correction_point": 3,
+    "wallet": 145,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/8015886ee63938a8b037d9535aea5ee9/small_acaffard.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/d6e06694a552417c9c2eb176847a8179/medium_acaffard.jpg",
+    "login": "acaffard",
+    "level": 4.09,
+    "intra": "https://profile.intra.42.fr/users/acaffard",
+    "correction_point": 8,
+    "wallet": 58,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/3ff9b53a972295b42fac8793fce14596/small_yanolive.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/7ef687fe2c845b1fa3af565e8bdb783c/medium_yanolive.jpg",
+    "login": "yanolive",
+    "level": 3.74,
+    "intra": "https://profile.intra.42.fr/users/yanolive",
+    "correction_point": 3,
+    "wallet": 182,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/ad361f9ac57419be5d462b5116ab9dac/small_mbirou.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/e1770905813ed5cddcfe2750a19c36a3/medium_mbirou.jpg",
+    "login": "mbirou",
+    "level": 4.14,
+    "intra": "https://profile.intra.42.fr/users/mbirou",
+    "correction_point": 3,
+    "wallet": 0,
+    "location": "1G2"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/7dbe5f21434a4a99986dd2c62e2f100f/small_ybarbot.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/098ac0e892e1b692fa304d0b45e48ade/medium_ybarbot.JPG",
+    "login": "ybarbot",
+    "level": 4.13,
+    "intra": "https://profile.intra.42.fr/users/ybarbot",
+    "correction_point": 3,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/74fb234547d1ab5650d49fd553096aa6/small_lauger.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/a234f010f9f5e0a20336cb6397421b42/medium_lauger.jpg",
+    "login": "lauger",
+    "level": 4.08,
+    "intra": "https://profile.intra.42.fr/users/lauger",
+    "correction_point": 5,
+    "wallet": 40,
+    "location": "1F5"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/339c0181a86fc81603adcb15b1270ada/small_malbrech.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/10aa9ec17aeb1faa05a0df3715135b2d/medium_malbrech.jpg",
+    "login": "malbrech",
+    "level": 4.1,
+    "intra": "https://profile.intra.42.fr/users/malbrech",
+    "correction_point": 0,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/42b90f88f3f0f53076179171ddb45bc0/small_maxouvra.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/9baf8c00d545a734f08c6934741dac56/medium_maxouvra.jpg",
+    "login": "maxouvra",
+    "level": 4.07,
+    "intra": "https://profile.intra.42.fr/users/maxouvra",
+    "correction_point": -1,
+    "wallet": 40,
+    "location": "1G4"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/af01996a5a65d737de5f1b0c520a6adf/small_nrontey.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/a89761b739777ec8b3f02da8ca87e531/medium_nrontey.jpg",
+    "login": "nrontey",
+    "level": 4.07,
+    "intra": "https://profile.intra.42.fr/users/nrontey",
+    "correction_point": 10,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/15102b8ef564a061b029d86f45f56c08/small_hubourge.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/600543533e5ded4724333d1a527b12b3/medium_hubourge.jpg",
+    "login": "hubourge",
+    "level": 7.01,
+    "intra": "https://profile.intra.42.fr/users/hubourge",
+    "correction_point": 5,
+    "wallet": 140,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/5a68fe4e599ead6e74fd48f33d4182f0/small_tbraud.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/54d354b66cfa1effb45687d0befdb20f/medium_tbraud.JPG",
+    "login": "tbraud",
+    "level": 4.05,
+    "intra": "https://profile.intra.42.fr/users/tbraud",
+    "correction_point": 1,
+    "wallet": 10,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/0b31245a550e1175bef17b8dc056ff5f/small_tpipi.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/110ad46e140575ea3803266a2cc69324/medium_tpipi.jpg",
+    "login": "tpipi",
+    "level": 4.09,
+    "intra": "https://profile.intra.42.fr/users/tpipi",
+    "correction_point": 1,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/f9c4c49c336dcb54da5b11425a614cbe/small_mewormse.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/7437678345920665730ba4747cfbef8c/medium_mewormse.jpg",
+    "login": "mewormse",
+    "level": 3.14,
+    "intra": "https://profile.intra.42.fr/users/mewormse",
+    "correction_point": 0,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/44ace8891e9985892f8cbf62331f41b4/small_adjoly.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/c7d2a61dd5fefbad838f23eaf297806f/medium_adjoly.jpg",
+    "login": "adjoly",
+    "level": 4.09,
+    "intra": "https://profile.intra.42.fr/users/adjoly",
+    "correction_point": 0,
+    "wallet": 124,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/b37a8db4217d5dbe148274140d53c2fd/small_kiroussa.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/495fe4a4167dacc4629536ec182f5277/medium_kiroussa.jpg",
+    "login": "kiroussa",
+    "level": 4.05,
+    "intra": "https://profile.intra.42.fr/users/kiroussa",
+    "correction_point": 22,
+    "wallet": 158,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/a2bd7aadbfe593aa19038c6000ea8e2b/small_mbico.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/1b2b491738421818266166cef776b60e/medium_mbico.JPG",
+    "login": "mbico",
+    "level": 4.12,
+    "intra": "https://profile.intra.42.fr/users/mbico",
+    "correction_point": 1,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/94b0f63a416f1ef99942ba14daf4b9bd/small_lboiteux.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/b10cce2abbd8ec95786325308b8db717/medium_lboiteux.jpg",
+    "login": "lboiteux",
+    "level": 4.36,
+    "intra": "https://profile.intra.42.fr/users/lboiteux",
+    "correction_point": 0,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/b3bfce7b9b8a4df0e327dc6013f478df/small_ttrave.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/fc056d2e1d1d13f004138958bd1d8b4b/medium_ttrave.jpg",
+    "login": "ttrave",
+    "level": 4.24,
+    "intra": "https://profile.intra.42.fr/users/ttrave",
+    "correction_point": 5,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/50d2fdccf3f77db805b9c1395b27f057/small_matde-ol.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/d5990fc8894d25617110c51d02ea60f6/medium_matde-ol.jpg",
+    "login": "matde-ol",
+    "level": 5.19,
+    "intra": "https://profile.intra.42.fr/users/matde-ol",
+    "correction_point": 10,
+    "wallet": 392,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/03df97f02c6d79433e5720e842bc329a/small_ltouzali.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/c08e01f211fc3bd8feb43d7c3df09b94/medium_ltouzali.jpg",
+    "login": "ltouzali",
+    "level": 5.11,
+    "intra": "https://profile.intra.42.fr/users/ltouzali",
+    "correction_point": 5,
+    "wallet": 130,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/4011b8bdfb9845bb461d3609fb2d934c/small_axdubois.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/4c8126b116cfe242478af46039e55627/medium_axdubois.jpg",
+    "login": "axdubois",
+    "level": 7.03,
+    "intra": "https://profile.intra.42.fr/users/axdubois",
+    "correction_point": 1,
+    "wallet": 140,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/3346bbe36910f966adfe99e63b3c9bb7/small_babonnet.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/5fc2859249ee9ea1ea712adc30b84105/medium_babonnet.JPG",
+    "login": "babonnet",
+    "level": 4.21,
+    "intra": "https://profile.intra.42.fr/users/babonnet",
+    "correction_point": 4,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/397748030c66adefa09a9cef83ef714b/small_bedarenn.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/0cb662f1423c4716193cdedb1fc34599/medium_bedarenn.jpg",
+    "login": "bedarenn",
+    "level": 4.54,
+    "intra": "https://profile.intra.42.fr/users/bedarenn",
+    "correction_point": 8,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/306d672e1daea433f8a4beabf1ac5a3d/small_lbouet.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/4a4445fccb2ff9d46b58aa2c7963a452/medium_lbouet.jpg",
+    "login": "lbouet",
+    "level": 4.13,
+    "intra": "https://profile.intra.42.fr/users/lbouet",
+    "correction_point": 10,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/d613e83096a41cf0e296647b62be0c23/small_tomoron.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/a133d2c284f39952e14ffb827e5879ba/medium_tomoron.jpg",
+    "login": "tomoron",
+    "level": 9.38,
+    "intra": "https://profile.intra.42.fr/users/tomoron",
+    "correction_point": 0,
+    "wallet": 1012,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/4d9ca3397350ce7d10dd2cdacfff5f2a/small_basverdi.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/455ecf283f5dc030ed90ed3c6f62dbea/medium_basverdi.jpg",
+    "login": "basverdi",
+    "level": 4.08,
+    "intra": "https://profile.intra.42.fr/users/basverdi",
+    "correction_point": 2,
+    "wallet": 40,
+    "location": "1F3"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/428f1a012eb1266e33b6082b99cb47e2/small_cblonde.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/875d1f3c3009c094131c18bdbaf7ceb1/medium_cblonde.jpg",
+    "login": "cblonde",
+    "level": 4.42,
+    "intra": "https://profile.intra.42.fr/users/cblonde",
+    "correction_point": 2,
+    "wallet": 350,
+    "location": "2B6"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/5dca42342d3d79a2ea6f4463dcacc3d3/small_madegryc.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/bcbe9fde0655d58988d86619246b3c24/medium_madegryc.jpg",
+    "login": "madegryc",
+    "level": 4.75,
+    "intra": "https://profile.intra.42.fr/users/madegryc",
+    "correction_point": 1,
+    "wallet": 224,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/d3ecdfd410ea2e2323532d995dc16421/small_gmassoni.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/169405813a5dcab9f89b7714b968aed7/medium_gmassoni.JPG",
+    "login": "gmassoni",
+    "level": 4.14,
+    "intra": "https://profile.intra.42.fr/users/gmassoni",
+    "correction_point": -1,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/082324b5037565e575f6489280f2f15b/small_edbernar.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/27ebbb45ca92517a7aebce27b72f9065/medium_edbernar.JPG",
+    "login": "edbernar",
+    "level": 6.98,
+    "intra": "https://profile.intra.42.fr/users/edbernar",
+    "correction_point": 15,
+    "wallet": 140,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/cd013fa8c494c0479369a2380c0c1d34/small_lslater.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/7c9acbd14872f7776cee17f3500425e8/medium_lslater.jpg",
+    "login": "lslater",
+    "level": 4.07,
+    "intra": "https://profile.intra.42.fr/users/lslater",
+    "correction_point": 1,
+    "wallet": 40,
+    "location": "1F1"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/e739b3596199332f31a3841455548c2a/small_psalame.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/24c5e5ed6d674fae33fd820588d96133/medium_psalame.jpg",
+    "login": "psalame",
+    "level": 11.74,
+    "intra": "https://profile.intra.42.fr/users/psalame",
+    "correction_point": 6,
+    "wallet": 623,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/8941e9e366cbd926f3bfc376e00556ec/small_glaguyon.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/20dfefe14ea94dcf680796f3f9f90b3b/medium_glaguyon.jpg",
+    "login": "glaguyon",
+    "level": 4.28,
+    "intra": "https://profile.intra.42.fr/users/glaguyon",
+    "correction_point": 3,
+    "wallet": 145,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/d80a66d9f95d36c0227a0a5e61c52576/small_roguigna.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/84b7148134cdaa8129a331aa5002b4aa/medium_roguigna.jpg",
+    "login": "roguigna",
+    "level": 4.17,
+    "intra": "https://profile.intra.42.fr/users/roguigna",
+    "correction_point": 3,
+    "wallet": 40,
+    "location": "1G7"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/862e049e890cda6e1ad856115ef786f5/small_mamarinc.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/014de1ae7d0d3871e78de6750e29b336/medium_mamarinc.jpg",
+    "login": "mamarinc",
+    "level": 4.82,
+    "intra": "https://profile.intra.42.fr/users/mamarinc",
+    "correction_point": 5,
+    "wallet": 40,
+    "location": "1B1"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/df873d67cfcfd284ec7b6c8d364d507a/small_asuc.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/3173146899bff7545e1abc595c27b977/medium_asuc.JPG",
+    "login": "asuc",
+    "level": 4.61,
+    "intra": "https://profile.intra.42.fr/users/asuc",
+    "correction_point": 5,
+    "wallet": 182,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/1ccc77a341d2c1cb162623fd5ca3bf86/small_mbuchs.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/13174fd47ee177b8b055318451924769/medium_mbuchs.JPG",
+    "login": "mbuchs",
+    "level": 4.45,
+    "intra": "https://profile.intra.42.fr/users/mbuchs",
+    "correction_point": -1,
+    "wallet": 82,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/4d0a68e5fae5138a60370a8f185d006c/small_gadelbes.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/513591fa2ef46c4e06f2da332e9a4ec9/medium_gadelbes.jpg",
+    "login": "gadelbes",
+    "level": 4.1,
+    "intra": "https://profile.intra.42.fr/users/gadelbes",
+    "correction_point": 6,
+    "wallet": 40,
+    "location": "1B2"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/a1554ea3424e194ce7e1e49f0702ab41/small_fparis.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/b97445127535bcdba2a6164c0c9ad4ff/medium_fparis.JPG",
+    "login": "fparis",
+    "level": 4.92,
+    "intra": "https://profile.intra.42.fr/users/fparis",
+    "correction_point": 0,
+    "wallet": 140,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/5034545fd867d52add69fbae004d98d3/small_madumerg.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/2efc435a3ce874e901d549b9522a9d6a/medium_madumerg.jpg",
+    "login": "madumerg",
+    "level": 4.29,
+    "intra": "https://profile.intra.42.fr/users/madumerg",
+    "correction_point": 2,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/1437ea7524ee07d6b39a72dc3578d521/small_bgoron.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/1a4fd1c39fe7de1835d40a0ef7c9108b/medium_bgoron.jpg",
+    "login": "bgoron",
+    "level": 5.95,
+    "intra": "https://profile.intra.42.fr/users/bgoron",
+    "correction_point": 1,
+    "wallet": 206,
+    "location": "1G1"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/f859ae524595c5c8e31db8869fb890ab/small_mmoussou.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/1d8b5d15097a8b3c5ce22ff4bbdb70dd/medium_mmoussou.jpg",
+    "login": "mmoussou",
+    "level": 4.09,
+    "intra": "https://profile.intra.42.fr/users/mmoussou",
+    "correction_point": 2,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/b2b091025261c53aacf31db303da3a8d/small_ebouchet.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/fcdf425a0a9233134a888384de9e37d2/medium_ebouchet.JPG",
+    "login": "ebouchet",
+    "level": 3.88,
+    "intra": "https://profile.intra.42.fr/users/ebouchet",
+    "correction_point": 0,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/b39cc4676ad1282ef6a2aa6df7b2d32c/small_hsolet.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/20ff1370e44c31f01d5dd202eb79d8a2/medium_hsolet.jpg",
+    "login": "hsolet",
+    "level": 3.65,
+    "intra": "https://profile.intra.42.fr/users/hsolet",
+    "correction_point": 1,
+    "wallet": 52,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/5a94dc750872238068bad5d4c09c7bba/small_vgodart.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/3d5ecc5c89f62d50fb4db147de226eba/medium_vgodart.jpg",
+    "login": "vgodart",
+    "level": 4.07,
+    "intra": "https://profile.intra.42.fr/users/vgodart",
+    "correction_point": 2,
+    "wallet": 82,
+    "location": "1B5"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/cf993d9f92c989a287e8c24f1296f2e7/small_brguicho.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/4c30f899f2376a66e5734e17fc61f199/medium_brguicho.jpg",
+    "login": "brguicho",
+    "level": 4.14,
+    "intra": "https://profile.intra.42.fr/users/brguicho",
+    "correction_point": 4,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/ad6696c248b6138149ae369235c098a1/small_mhervoch.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/f662e850ba7f7add79bbed7282187128/medium_mhervoch.jpg",
+    "login": "mhervoch",
+    "level": 3.82,
+    "intra": "https://profile.intra.42.fr/users/mhervoch",
+    "correction_point": 3,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/940dd33d52c2ff3c626a6ec1ddfdc244/small_rgramati.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/9223750578f4617d6c72d6d6b23c6d5b/medium_rgramati.jpg",
+    "login": "rgramati",
+    "level": 5.03,
+    "intra": "https://profile.intra.42.fr/users/rgramati",
+    "correction_point": 10,
+    "wallet": 163,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/adf5e838540b59824f5555f3dfb96ff4/small_marde-vr.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/85fd70702dfcf6269f69026ee0c37efa/medium_marde-vr.jpg",
+    "login": "marde-vr",
+    "level": 11.54,
+    "intra": "https://profile.intra.42.fr/users/marde-vr",
+    "correction_point": 1,
+    "wallet": 46,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/6026a4baaaeb7efb118911bfbe26155f/small_tsadouk.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/53d08b06888b7138d6b46b12cda179c8/medium_tsadouk.JPG",
+    "login": "tsadouk",
+    "level": 4.15,
+    "intra": "https://profile.intra.42.fr/users/tsadouk",
+    "correction_point": 3,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/11437dcbed3db2c6ddefdc0a4e3f90f4/small_ycontre.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/5b7a9a3aca8d8beeef43865ca1cef127/medium_ycontre.jpg",
+    "login": "ycontre",
+    "level": 12.27,
+    "intra": "https://profile.intra.42.fr/users/ycontre",
+    "correction_point": 1,
+    "wallet": 682,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/b5156b02a697a720f4e184627dd724e9/small_eplouzen.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/62be6dc5e5ce6abf391fdabaeaf71efb/medium_eplouzen.jpg",
+    "login": "eplouzen",
+    "level": 4.11,
+    "intra": "https://profile.intra.42.fr/users/eplouzen",
+    "correction_point": 0,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/610a9f2538cd91e541b5d79207aef883/small_yroussea.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/3cb5938c95ce995d1a58afce0056cfbc/medium_yroussea.jpg",
+    "login": "yroussea",
+    "level": 4.11,
+    "intra": "https://profile.intra.42.fr/users/yroussea",
+    "correction_point": 4,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/ddcf02255ac5bd63c9490232b20e5ee5/small_tsoloher.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/e0fc9400441c86f18356a050c591cbf7/medium_tsoloher.jpg",
+    "login": "tsoloher",
+    "level": 4.11,
+    "intra": "https://profile.intra.42.fr/users/tsoloher",
+    "correction_point": 0,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/ee95ac14757bc56beea28ce765329b89/small_ajasnin.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/a5d0bd2b02ae8234b538312292f3c2db/medium_ajasnin.jpg",
+    "login": "ajasnin",
+    "level": 5.34,
+    "intra": "https://profile.intra.42.fr/users/ajasnin",
+    "correction_point": 1,
+    "wallet": 260,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/49d5216080c8c9e02fe6d1c519724b7b/small_mbouin.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/bb814cfa3941f5774a1f99f44067f8ec/medium_mbouin.jpg",
+    "login": "mbouin",
+    "level": 11.56,
+    "intra": "https://profile.intra.42.fr/users/mbouin",
+    "correction_point": 0,
+    "wallet": 645,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/5fd6673d109fbf8fa1b5d136bde355c8/small_mbriand.png",
+    "image_url_medium": "https://cdn.intra.42.fr/users/c61815deb7be16bac4ac10d2173379b8/medium_mbriand.png",
+    "login": "mbriand",
+    "level": 5.18,
+    "intra": "https://profile.intra.42.fr/users/mbriand",
+    "correction_point": 2,
+    "wallet": 115,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/6cee69fd9c2c26d8737536be7d9cd8eb/small_axcallet.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/9011ef3e69119e06714bedf4e396c6a3/medium_axcallet.JPG",
+    "login": "axcallet",
+    "level": 11.21,
+    "intra": "https://profile.intra.42.fr/users/axcallet",
+    "correction_point": 3,
+    "wallet": 517,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/9464b4404b6325c4a015c11862f4336f/small_gazzopar.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/323c54763f75513d76b09988a22c09d6/medium_gazzopar.jpg",
+    "login": "gazzopar",
+    "level": 11.86,
+    "intra": "https://profile.intra.42.fr/users/gazzopar",
+    "correction_point": 5,
+    "wallet": 645,
+    "location": "2B3"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/3ba7787d7e535e61d2fa5878b78a8bd2/small_ecorvisi.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/d602110562877e143843e27c085805b9/medium_ecorvisi.jpg",
+    "login": "ecorvisi",
+    "level": 8.36,
+    "intra": "https://profile.intra.42.fr/users/ecorvisi",
+    "correction_point": 0,
+    "wallet": 145,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/3534d6bcb9417988541db9157baccb9a/small_tdubois.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/edcc9695347a97dec2e856376b1b66bf/medium_tdubois.jpg",
+    "login": "tdubois",
+    "level": 16.38,
+    "intra": "https://profile.intra.42.fr/users/tdubois",
+    "correction_point": 5,
+    "wallet": 350,
+    "location": "1E5"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/11a996ef15f1342da3d3c78d2a8adf1b/small_pdubacqu.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/7c619b0c45878fd22cc498620b2652b0/medium_pdubacqu.jpg",
+    "login": "pdubacqu",
+    "level": 10.64,
+    "intra": "https://profile.intra.42.fr/users/pdubacqu",
+    "correction_point": 6,
+    "wallet": 645,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/e413033602075fcb398500f9470bc6ae/small_parinder.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/27eb7197ac269207d0f59f87d1ecf8dc/medium_parinder.jpg",
+    "login": "parinder",
+    "level": 9.24,
+    "intra": "https://profile.intra.42.fr/users/parinder",
+    "correction_point": 3,
+    "wallet": 50,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/5bacb18305b544fcf8b0b21233d9d8eb/small_luhego.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/86f3a10b22bdcd0427d14b9d694884f0/medium_luhego.jpg",
+    "login": "luhego",
+    "level": 6.86,
+    "intra": "https://profile.intra.42.fr/users/luhego",
+    "correction_point": 9,
+    "wallet": 329,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/50b16ad175656848dc4b65ed69e325b0/small_laprieur.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/bd81fb3c70fd66040e24d97172650dac/medium_laprieur.jpg",
+    "login": "laprieur",
+    "level": 11.29,
+    "intra": "https://profile.intra.42.fr/users/laprieur",
+    "correction_point": 4,
+    "wallet": 657,
+    "location": "1D6"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/047e234d3b07d52b41529e23aa35b9a2/small_brenaudo.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/b965a5f3f95db34bdca127a53f9a7d01/medium_brenaudo.JPG",
+    "login": "brenaudo",
+    "level": 11.44,
+    "intra": "https://profile.intra.42.fr/users/brenaudo",
+    "correction_point": 1,
+    "wallet": 458,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/cb9756fad2406b205965580d319efe58/small_mjouot.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/ea55e938cfae26fefb9c32521ca7497c/medium_mjouot.jpg",
+    "login": "mjouot",
+    "level": 11.21,
+    "intra": "https://profile.intra.42.fr/users/mjouot",
+    "correction_point": -1,
+    "wallet": 145,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/39ecb794fc59b16e525879975695ffda/small_fsanna.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/cfd0a4b6ee1575c053c2e693d2e37e3d/medium_fsanna.jpg",
+    "login": "fsanna",
+    "level": 10.94,
+    "intra": "https://profile.intra.42.fr/users/fsanna",
+    "correction_point": -3,
+    "wallet": 645,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/077c625dababcf0fe70cebd11dd800a9/small_arforgea.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/79c2e6cb4a20160aa5d30951d1bb1c29/medium_arforgea.jpg",
+    "login": "arforgea",
+    "level": 8.24,
+    "intra": "https://profile.intra.42.fr/users/arforgea",
+    "correction_point": 0,
+    "wallet": 145,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/161a2d181de129c965c0a8b88ebb2324/small_lamasson.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/e33acf3edce1d534195b7735581856bd/medium_lamasson.jpg",
+    "login": "lamasson",
+    "level": 11.59,
+    "intra": "https://profile.intra.42.fr/users/lamasson",
+    "correction_point": 1,
+    "wallet": 145,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/30786f0106b0f973004f72f2acf718db/small_acomet.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/85e0431892056f3de27cf8d89652e404/medium_acomet.JPG",
+    "login": "acomet",
+    "level": 8.55,
+    "intra": "https://profile.intra.42.fr/users/acomet",
+    "correction_point": -3,
+    "wallet": 15,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/470b7e6b5207455460af6dbaf296fe89/small_zhabri.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/ddc8d51d5bf7e94d8fc5376c0eeb5b5c/medium_zhabri.jpg",
+    "login": "zhabri",
+    "level": 10.99,
+    "intra": "https://profile.intra.42.fr/users/zhabri",
+    "correction_point": 1,
+    "wallet": 645,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/8e1bf0489095420eb84e31a15bae499c/small_njegat.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/1a60edefb896e866ef730f8223f8753b/medium_njegat.jpg",
+    "login": "njegat",
+    "level": 12.1,
+    "intra": "https://profile.intra.42.fr/users/njegat",
+    "correction_point": 2,
+    "wallet": 645,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/f32632f2ce89890c154a92c93c04ada7/small_jdelsol-.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/22c50ea03e340dd42ba15225837fb9a5/medium_jdelsol-.jpg",
+    "login": "jdelsol-",
+    "level": 8.69,
+    "intra": "https://profile.intra.42.fr/users/jdelsol-",
+    "correction_point": 0,
+    "wallet": 211,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/20f3bec30539e6b3a8c14a8c3731bf9a/small_ffeaugas.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/8a26eeffd1f49889d43b69ae9d7b2d60/medium_ffeaugas.jpg",
+    "login": "ffeaugas",
+    "level": 10.89,
+    "intra": "https://profile.intra.42.fr/users/ffeaugas",
+    "correction_point": 11,
+    "wallet": 645,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/12f03d3883031376d9bb50458f9273e7/small_jfarkas.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/c74bff86de5c384b1757879d2fbe3e83/medium_jfarkas.jpg",
+    "login": "jfarkas",
+    "level": 11.4,
+    "intra": "https://profile.intra.42.fr/users/jfarkas",
+    "correction_point": -2,
+    "wallet": 650,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/e94aacd60110c3975033a3347294350e/small_dguillau.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/19ccfe9355b8ee4b678b227f189b6ef1/medium_dguillau.jpg",
+    "login": "dguillau",
+    "level": 11.24,
+    "intra": "https://profile.intra.42.fr/users/dguillau",
+    "correction_point": 16,
+    "wallet": 687,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/015f602bba6d9b7ebc81a0ed60309944/small_alclauze.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/d7a2ec00a8d4b5228054484c2773e693/medium_alclauze.JPG",
+    "login": "alclauze",
+    "level": 11.73,
+    "intra": "https://profile.intra.42.fr/users/alclauze",
+    "correction_point": 0,
+    "wallet": 699,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/cf1bfd4d10d94a5ad64e8ea62d5cacad/small_ltuffery.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/6e2af95e7d349d4a1c87eb4e165ea781/medium_ltuffery.jpg",
+    "login": "ltuffery",
+    "level": 11.29,
+    "intra": "https://profile.intra.42.fr/users/ltuffery",
+    "correction_point": 0,
+    "wallet": 193,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/9048f63501f2ebb29d9a55e57989e65f/small_gbertet.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/504f919d1cf8b8e1a5c15097911372c2/medium_gbertet.JPG",
+    "login": "gbertet",
+    "level": 11.16,
+    "intra": "https://profile.intra.42.fr/users/gbertet",
+    "correction_point": -3,
+    "wallet": 145,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/60b77ab8606dc9ceec367db153ef3f61/small_nicarpen.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/bca4c35c45c99ca9e3ab498a62f30e6d/medium_nicarpen.jpg",
+    "login": "nicarpen",
+    "level": 10.9,
+    "intra": "https://profile.intra.42.fr/users/nicarpen",
+    "correction_point": 4,
+    "wallet": 335,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/3b542cac71e04fddc64f7c2bc8434786/small_cmassera.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/4d6c5baef4d2a0d0c0d0b219df0a60c0/medium_cmassera.jpg",
+    "login": "cmassera",
+    "level": 11.23,
+    "intra": "https://profile.intra.42.fr/users/cmassera",
+    "correction_point": 7,
+    "wallet": 145,
+    "location": "1E7"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/8b94e078fd2385a2d528bfefd110ebf6/small_jlarrieu.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/bd34f4cc8acd2cb4a559d956166ce157/medium_jlarrieu.jpg",
+    "login": "jlarrieu",
+    "level": 12.22,
+    "intra": "https://profile.intra.42.fr/users/jlarrieu",
+    "correction_point": 7,
+    "wallet": 71,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/367fbb2a91c78ff97d7fa6279c3d9a5f/small_aderouba.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/84b964f20e6ce4ba5068723dd3a702ac/medium_aderouba.JPG",
+    "login": "aderouba",
+    "level": 13.19,
+    "intra": "https://profile.intra.42.fr/users/aderouba",
+    "correction_point": 4,
+    "wallet": 663,
+    "location": "1B6"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/bc92d3eca8fdd0d4c001a2910a0a049d/small_nfour.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/3cf1b1a64578435f512123f023ba878c/medium_nfour.jpg",
+    "login": "nfour",
+    "level": 12.21,
+    "intra": "https://profile.intra.42.fr/users/nfour",
+    "correction_point": 3,
+    "wallet": 304,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/5289bb0ce413866b03c68f0d5e90e947/small_hsebille.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/24c11ca7c03b9a5a9e9c47eb67369b8f/medium_hsebille.jpg",
+    "login": "hsebille",
+    "level": 11.35,
+    "intra": "https://profile.intra.42.fr/users/hsebille",
+    "correction_point": 8,
+    "wallet": 150,
+    "location": "1D5"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/13bc5ea54bb907cb55ddafe5eab0d2cb/small_lnespoul.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/a21b7933d50e2e8f1fa32251d2cef851/medium_lnespoul.jpg",
+    "login": "lnespoul",
+    "level": 8.1,
+    "intra": "https://profile.intra.42.fr/users/lnespoul",
+    "correction_point": 2,
+    "wallet": 145,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/5474421e7b41cc6b36074df062e4a520/small_tdhaussy.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/1c4c241ff03681ca7565e2733019ecdf/medium_tdhaussy.jpg",
+    "login": "tdhaussy",
+    "level": 12.15,
+    "intra": "https://profile.intra.42.fr/users/tdhaussy",
+    "correction_point": 7,
+    "wallet": 650,
+    "location": "1A6"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/737c8ad0661d9f9e4102b278a61232f0/small_vviovi.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/33411fbd1f5701ecddb3569359a3c8b6/medium_vviovi.jpg",
+    "login": "vviovi",
+    "level": 11.67,
+    "intra": "https://profile.intra.42.fr/users/vviovi",
+    "correction_point": 9,
+    "wallet": 693,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/5276921ef8c69790a2a6804b4c33151a/small_kramjatt.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/e8b72a77d239861a548683f69aeb91aa/medium_kramjatt.jpg",
+    "login": "kramjatt",
+    "level": 12.71,
+    "intra": "https://profile.intra.42.fr/users/kramjatt",
+    "correction_point": 7,
+    "wallet": 825,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/59974a6745dd34670c986ad21800120a/small_rvinour.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/e744371f0436921de974aa1a707f9661/medium_rvinour.jpg",
+    "login": "rvinour",
+    "level": 11.18,
+    "intra": "https://profile.intra.42.fr/users/rvinour",
+    "correction_point": 0,
+    "wallet": 169,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/f52c637562d5aca664bd1ca951de4ce5/small_vnadal.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/1bce35f8d819e043fdb1145e62d4f49e/medium_vnadal.jpg",
+    "login": "vnadal",
+    "level": 10.72,
+    "intra": "https://profile.intra.42.fr/users/vnadal",
+    "correction_point": -3,
+    "wallet": 330,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/090902b05746fe033de5f921071518a1/small_jghribi.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/93a8475d5f442a62a25b9e4a6ac2cb6c/medium_jghribi.jpg",
+    "login": "jghribi",
+    "level": 11.23,
+    "intra": "https://profile.intra.42.fr/users/jghribi",
+    "correction_point": 4,
+    "wallet": 145,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/265061c4195c0e95772ac19da43aaac7/small_ntraun.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/4f6038213922105520ed5ca21aadf472/medium_ntraun.jpg",
+    "login": "ntraun",
+    "level": 11.06,
+    "intra": "https://profile.intra.42.fr/users/ntraun",
+    "correction_point": 4,
+    "wallet": 145,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/4ff0991964b431d120610ed02bb642f8/small_jduval.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/48654eefdcf01a15b8e60e19b9ac14d7/medium_jduval.jpg",
+    "login": "jduval",
+    "level": 11.41,
+    "intra": "https://profile.intra.42.fr/users/jduval",
+    "correction_point": 7,
+    "wallet": 645,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/d5bedd5efb88dd6ae4fdb196c1c2baf6/small_jmennock.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/e5a61882c0d78f7e400d3156fac5b9e6/medium_jmennock.jpg",
+    "login": "jmennock",
+    "level": 11.43,
+    "intra": "https://profile.intra.42.fr/users/jmennock",
+    "correction_point": 4,
+    "wallet": 325,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/502fe42234c91b605aa56b258b87a6bb/small_vvaas.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/6514b238c8581c94244cb7ec3c63e143/medium_vvaas.jpg",
+    "login": "vvaas",
+    "level": 12.8,
+    "intra": "https://profile.intra.42.fr/users/vvaas",
+    "correction_point": 4,
+    "wallet": 263,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/f0077b19919cf8b0f33c84bf94c76f31/small_ulayus.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/fda954bb93d7575156441b3bde82722b/medium_ulayus.jpg",
+    "login": "ulayus",
+    "level": 13.77,
+    "intra": "https://profile.intra.42.fr/users/ulayus",
+    "correction_point": 4,
+    "wallet": 836,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/26316b228ef6ae001a49762a6bd9120f/small_jvasseur.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/e67717f353b65f86301e39efbf1df3fb/medium_jvasseur.jpg",
+    "login": "jvasseur",
+    "level": 11.49,
+    "intra": "https://profile.intra.42.fr/users/jvasseur",
+    "correction_point": 1,
+    "wallet": 645,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/cbb12cb84749f5c6d5c1c76de579ba20/small_nloisy.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/1682f8b0792a8e74e60d1d5891814217/medium_nloisy.jpg",
+    "login": "nloisy",
+    "level": 12.72,
+    "intra": "https://profile.intra.42.fr/users/nloisy",
+    "correction_point": 0,
+    "wallet": 150,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/1dab13ecec3b029b000c08b6a238afb5/small_eguillau.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/42e74830307cb8fc92c0e8d2d58f8c40/medium_eguillau.jpg",
+    "login": "eguillau",
+    "level": 11.4,
+    "intra": "https://profile.intra.42.fr/users/eguillau",
+    "correction_point": 12,
+    "wallet": 687,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/8397220032cd0d02504257583e71559e/small_averdon.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/58147e26d15590058a7bf929ec8ccdb3/medium_averdon.JPG",
+    "login": "averdon",
+    "level": 12.03,
+    "intra": "https://profile.intra.42.fr/users/averdon",
+    "correction_point": 8,
+    "wallet": 669,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/703b144568e0e0bb77777616c1f6c109/small_vkerob.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/14736b6d34bd4177f2b66d1e6f990087/medium_vkerob.jpg",
+    "login": "vkerob",
+    "level": 11.36,
+    "intra": "https://profile.intra.42.fr/users/vkerob",
+    "correction_point": 1,
+    "wallet": 645,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/cdec012b320b35b63713c182e6e6ec37/small_adamiens.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/2cc092f055ac1c602a90e316741cc1d2/medium_adamiens.jpg",
+    "login": "adamiens",
+    "level": 14.13,
+    "intra": "https://profile.intra.42.fr/users/adamiens",
+    "correction_point": 5,
+    "wallet": 22,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/b114f34c421652e8b4b0ab6b998136df/small_pmieuzet.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/b25e1d837d89aa5b64c2a1c79f6be92a/medium_pmieuzet.jpg",
+    "login": "pmieuzet",
+    "level": 15.22,
+    "intra": "https://profile.intra.42.fr/users/pmieuzet",
+    "correction_point": 5,
+    "wallet": 717,
+    "location": "1C2"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/44f8bf147aa3e516b1247ebcc94a3ff2/small_nskiba.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/f75f420722948db873bba10c549fdc76/medium_nskiba.jpg",
+    "login": "nskiba",
+    "level": 14.17,
+    "intra": "https://profile.intra.42.fr/users/nskiba",
+    "correction_point": 13,
+    "wallet": 79,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/4803815fd2d542991084a8f32cb3ba2e/small_tdeverge.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/b3fa03af26b8b8073a93ab010e5a3259/medium_tdeverge.jpg",
+    "login": "tdeverge",
+    "level": 11.52,
+    "intra": "https://profile.intra.42.fr/users/tdeverge",
+    "correction_point": 2,
+    "wallet": 674,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/7a5341c5739e0caa255236ca8ffdfa60/small_julemart.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/7d6932f0ada74ec813b323ef009f7f7b/medium_julemart.jpg",
+    "login": "julemart",
+    "level": 11.59,
+    "intra": "https://profile.intra.42.fr/users/julemart",
+    "correction_point": 2,
+    "wallet": 243,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/014314890452dc6e3fbcb6763789042b/small_sbeaucie.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/bea0f898404c09c3eb22f209d0eb3a51/medium_sbeaucie.jpg",
+    "login": "sbeaucie",
+    "level": 8.22,
+    "intra": "https://profile.intra.42.fr/users/sbeaucie",
+    "correction_point": -2,
+    "wallet": 35,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/542cc5e8fc8344b52f0cc68bd03d1857/small_smalloir.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/3a0086ca405d47d215796a68c6eda55e/medium_smalloir.jpg",
+    "login": "smalloir",
+    "level": 8.67,
+    "intra": "https://profile.intra.42.fr/users/smalloir",
+    "correction_point": 3,
+    "wallet": 600,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/2bc0fec270a4abf5429ab7a34eed44ad/small_lvincent.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/d94d32a50bd8750dda2a536f83ea1124/medium_lvincent.jpg",
+    "login": "lvincent",
+    "level": 8.08,
+    "intra": "https://profile.intra.42.fr/users/lvincent",
+    "correction_point": 6,
+    "wallet": 150,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/a062cd43b3d6e0f9982fdf729c390f2f/small_tguerin.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/b3263c065f553ff1c779b9cd138cf943/medium_tguerin.jpg",
+    "login": "tguerin",
+    "level": 11.28,
+    "intra": "https://profile.intra.42.fr/users/tguerin",
+    "correction_point": 2,
+    "wallet": 111,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/b388d76b7372693b8aafe8e6a48381bf/small_cchauvet.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/1638bb968dfc24c4cf74975538f9863b/medium_cchauvet.JPG",
+    "login": "cchauvet",
+    "level": 11.39,
+    "intra": "https://profile.intra.42.fr/users/cchauvet",
+    "correction_point": 5,
+    "wallet": 145,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/a7e2fb21aed7d1d744657d08ed28439f/small_mlauro.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/f3edceab534c3fb925e01b5af771b5f9/medium_mlauro.jpg",
+    "login": "mlauro",
+    "level": 10.82,
+    "intra": "https://profile.intra.42.fr/users/mlauro",
+    "correction_point": 5,
+    "wallet": 13,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/afa8299dadf53f68c312f8f50ed89955/small_nmorandi.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/5f3a20412d9766460efb4b752bbb7ccd/medium_nmorandi.jpg",
+    "login": "nmorandi",
+    "level": 11.48,
+    "intra": "https://profile.intra.42.fr/users/nmorandi",
+    "correction_point": 1,
+    "wallet": 145,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/24adf5041bf5fe382a372d4854244194/small_ltruchel.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/921b15dc21883f515ea0eaeea5d6d05a/medium_ltruchel.jpg",
+    "login": "ltruchel",
+    "level": 13.11,
+    "intra": "https://profile.intra.42.fr/users/ltruchel",
+    "correction_point": 7,
+    "wallet": 162,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/41de620f2d1da803c0153e69a1c1275c/small_lfarina.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/fa67f4e64b28b6e0d29ed0fd01a497c0/medium_lfarina.jpg",
+    "login": "lfarina",
+    "level": 14.5,
+    "intra": "https://profile.intra.42.fr/users/lfarina",
+    "correction_point": 10,
+    "wallet": 256,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/9d9c49932910d21d5581e91e75703eac/small_lflandri.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/8d78a87f480a1e3c5528a6720aaa0482/medium_lflandri.jpg",
+    "login": "lflandri",
+    "level": 11.63,
+    "intra": "https://profile.intra.42.fr/users/lflandri",
+    "correction_point": 1,
+    "wallet": 663,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/709ac795837e6a5ccb358579e3b67435/small_gpouzet.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/662939fdf820e83c625d59bd5f126031/medium_gpouzet.jpg",
+    "login": "gpouzet",
+    "level": 7.25,
+    "intra": "https://profile.intra.42.fr/users/gpouzet",
+    "correction_point": -1,
+    "wallet": 193,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/3d14cb73978c39a74f61a7195faac900/small_maldavid.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/a523530edb404bd1ad17e006bb31090f/medium_maldavid.jpg",
+    "login": "maldavid",
+    "level": 12.81,
+    "intra": "https://profile.intra.42.fr/users/maldavid",
+    "correction_point": 0,
+    "wallet": 83,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/37c15048e34b497b3fa8dca5c20cf31b/small_alouis-j.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/7596eed67e8cf80a3f48a26704413e33/medium_alouis-j.JPG",
+    "login": "alouis-j",
+    "level": 11.17,
+    "intra": "https://profile.intra.42.fr/users/alouis-j",
+    "correction_point": 8,
+    "wallet": 645,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/0a8dd3f612b7167aa9a5631187c47432/small_vjavelot.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/1a70c9c640f77f9df5a21c8d9512ec52/medium_vjavelot.jpg",
+    "login": "vjavelot",
+    "level": 10.59,
+    "intra": "https://profile.intra.42.fr/users/vjavelot",
+    "correction_point": 4,
+    "wallet": 145,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/ea52f4e7d27bd3093724a27c34290fd3/small_thellego.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/0b0e1590369ec5d8532158b302b0a413/medium_thellego.jpg",
+    "login": "thellego",
+    "level": 11.25,
+    "intra": "https://profile.intra.42.fr/users/thellego",
+    "correction_point": 6,
+    "wallet": 145,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/7fcc3b1461d7103de08117780e4700ee/small_erey-bet.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/04a0aac9ec7ac5b63673228000b0f487/medium_erey-bet.jpg",
+    "login": "erey-bet",
+    "level": 10.3,
+    "intra": "https://profile.intra.42.fr/users/erey-bet",
+    "correction_point": 0,
+    "wallet": 145,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/ef7b5076ed4898aa3dd81c6215c0b1f9/small_mchedota.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/4f38f34f83cfa3d5e1665d8e36431afa/medium_mchedota.jpg",
+    "login": "mchedota",
+    "level": 10.42,
+    "intra": "https://profile.intra.42.fr/users/mchedota",
+    "correction_point": -3,
+    "wallet": 645,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/2855ddcdd6357ac8c178d61e9753c7ec/small_rguilleu.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/233a9cb25195bf140c3e04827d1d58eb/medium_rguilleu.jpg",
+    "login": "rguilleu",
+    "level": 10.68,
+    "intra": "https://profile.intra.42.fr/users/rguilleu",
+    "correction_point": -1,
+    "wallet": 150,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/82b561cd0b0c29715c6f2c00fc317316/small_vsaura.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/dbe17bc2f37a32764507f86c02b3c833/medium_vsaura.jpg",
+    "login": "vsaura",
+    "level": 10.83,
+    "intra": "https://profile.intra.42.fr/users/vsaura",
+    "correction_point": 2,
+    "wallet": 145,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/35ef5d14857eace4e7abbe9380303167/small_mvitiell.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/b35b45cb1cc294fd80a704d61b94deea/medium_mvitiell.jpg",
+    "login": "mvitiell",
+    "level": 10.7,
+    "intra": "https://profile.intra.42.fr/users/mvitiell",
+    "correction_point": 0,
+    "wallet": 249,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/b5aa1b318f9a3ff5542bc2b6f9f78332/small_tcazenav.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/e34e74cfcf6c40ad8e7d469279547fea/medium_tcazenav.JPG",
+    "login": "tcazenav",
+    "level": 10.77,
+    "intra": "https://profile.intra.42.fr/users/tcazenav",
+    "correction_point": 0,
+    "wallet": 145,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/7e0647c231dfd15e592463beae52f90e/small_retcheba.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/3cb5cd72945acd7e6b96fa8ea30c22ec/medium_retcheba.JPG",
+    "login": "retcheba",
+    "level": 13.12,
+    "intra": "https://profile.intra.42.fr/users/retcheba",
+    "correction_point": 7,
+    "wallet": 69,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/fcc422d4fd7a84b1c81407209436987f/small_mjuin.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/1d6cfda43ec0021fe0d0ea3669735fd0/medium_mjuin.jpg",
+    "login": "mjuin",
+    "level": 11.42,
+    "intra": "https://profile.intra.42.fr/users/mjuin",
+    "correction_point": 1,
+    "wallet": 95,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/a82e3ee5a3e37e7b93fed62a857eea18/small_luserbu.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/0239df0bfe8c2866718f8b6c0ecbc79c/medium_luserbu.JPG",
+    "login": "luserbu",
+    "level": 10.29,
+    "intra": "https://profile.intra.42.fr/users/luserbu",
+    "correction_point": -1,
+    "wallet": 645,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/e5bc5cfe1bac0a41ac60b0fb219ec056/small_thmarin.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/4920414804879fa0584bd77f58ec753a/medium_thmarin.JPG",
+    "login": "thmarin",
+    "level": 12.04,
+    "intra": "https://profile.intra.42.fr/users/thmarin",
+    "correction_point": 2,
+    "wallet": 237,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/0d5b5184817f64d72ae32d26e250e480/small_afaby.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/0e1cacb90e077998e6942e9b2b9d427e/medium_afaby.JPG",
+    "login": "afaby",
+    "level": 13.86,
+    "intra": "https://profile.intra.42.fr/users/afaby",
+    "correction_point": 0,
+    "wallet": 873,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/2b416b5191a278fb8615ab617f3c31d6/small_mbihan.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/b26a303a0eec64722e37537cf1473cb8/medium_mbihan.JPG",
+    "login": "mbihan",
+    "level": 11.07,
+    "intra": "https://profile.intra.42.fr/users/mbihan",
+    "correction_point": 1,
+    "wallet": 645,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/eab9df673f6a93efc77b89054f526a8e/small_lobozier.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/34acefa8cd08a75a3e81f5ce9cd5f529/medium_lobozier.jpg",
+    "login": "lobozier",
+    "level": 12.19,
+    "intra": "https://profile.intra.42.fr/users/lobozier",
+    "correction_point": 6,
+    "wallet": 68,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/416eb94ab1f3372dda5db2b6444e98d3/small_tlarraze.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/2483ad15f6dd33f11c67add70d584d7e/medium_tlarraze.JPG",
+    "login": "tlarraze",
+    "level": 11.09,
+    "intra": "https://profile.intra.42.fr/users/tlarraze",
+    "correction_point": -6,
+    "wallet": 879,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/a97678eac8fc394d61d890734e36c0a0/small_pirabaud.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/2b77e669bd51581cc99a899bfa76bc47/medium_pirabaud.JPG",
+    "login": "pirabaud",
+    "level": 12.63,
+    "intra": "https://profile.intra.42.fr/users/pirabaud",
+    "correction_point": 3,
+    "wallet": 273,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/cbbea3938e9395f8daa920f572a77e94/small_jbugnico.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/21a4927c1d3f8571dca5655d2b9bd1a8/medium_jbugnico.JPG",
+    "login": "jbugnico",
+    "level": 10.78,
+    "intra": "https://profile.intra.42.fr/users/jbugnico",
+    "correction_point": 0,
+    "wallet": 193,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/0f55785a3f9b516890e6d6d0a0aba93a/small_dguet.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/5f42f811677980f37b8c60d266b95bd2/medium_dguet.JPG",
+    "login": "dguet",
+    "level": 10.7,
+    "intra": "https://profile.intra.42.fr/users/dguet",
+    "correction_point": 7,
+    "wallet": 7,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/2092f8da5fc89192a2fea938bee7c588/small_blevrel.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/a159880e746752fbb435538981f80400/medium_blevrel.JPG",
+    "login": "blevrel",
+    "level": 13.08,
+    "intra": "https://profile.intra.42.fr/users/blevrel",
+    "correction_point": 5,
+    "wallet": 14,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/f6fe426e3813d1a06db70f10677d9531/small_jsauvain.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/778f0c357cf6462e0699a0bb31cc8b26/medium_jsauvain.JPG",
+    "login": "jsauvain",
+    "level": 10.72,
+    "intra": "https://profile.intra.42.fr/users/jsauvain",
+    "correction_point": -2,
+    "wallet": 645,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/d8f89429d5902c8f522b26ded96d22ec/small_kbrousse.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/564273107a8fb5e0cdeea90202d70ed3/medium_kbrousse.JPG",
+    "login": "kbrousse",
+    "level": 13.07,
+    "intra": "https://profile.intra.42.fr/users/kbrousse",
+    "correction_point": 2,
+    "wallet": 418,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/3309e8d4592267aa5c5180b8672520da/small_zharzi.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/d509054314fab0828cd683bb8c872c5f/medium_zharzi.JPG",
+    "login": "zharzi",
+    "level": 11.07,
+    "intra": "https://profile.intra.42.fr/users/zharzi",
+    "correction_point": 16,
+    "wallet": 746,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/b350a63c152c16ea9df94662b36dc811/small_subrandt.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/3e44fd77a73e637b97bdea5dc04c1afc/medium_subrandt.JPG",
+    "login": "subrandt",
+    "level": 12.64,
+    "intra": "https://profile.intra.42.fr/users/subrandt",
+    "correction_point": 3,
+    "wallet": 304,
+    "location": "2B4"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/df6c23c51825ee7ba672a0c75e009ae8/small_ybaudoui.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/32826d0984d68322c9d88763d036b359/medium_ybaudoui.JPG",
+    "login": "ybaudoui",
+    "level": 12.47,
+    "intra": "https://profile.intra.42.fr/users/ybaudoui",
+    "correction_point": 4,
+    "wallet": 38,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/0804cd291e196ab2e80ac0b7f94b7d65/small_argomez.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/849ced3ba9ef6179f37598d923c7763f/medium_argomez.JPG",
+    "login": "argomez",
+    "level": 12.69,
+    "intra": "https://profile.intra.42.fr/users/argomez",
+    "correction_point": 1,
+    "wallet": 60,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/52b0aabc72e81c7b1618a98003f6d691/small_mcloarec.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/c69717b259d16e076e1dd88e7bc0b749/medium_mcloarec.JPG",
+    "login": "mcloarec",
+    "level": 11.23,
+    "intra": "https://profile.intra.42.fr/users/mcloarec",
+    "correction_point": 2,
+    "wallet": 255,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/5d19a4723352fe05038518b0cc689d39/small_vnaud.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/8d9c704bfffa648e28c3b1f02fb6994d/medium_vnaud.JPG",
+    "login": "vnaud",
+    "level": 16.72,
+    "intra": "https://profile.intra.42.fr/users/vnaud",
+    "correction_point": 1,
+    "wallet": 1173,
+    "location": "1C3"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/39566148bd4456de380c8f218cf3af10/small_johrober.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/cfd8aedbe0b8f57bed5ea2037c7bc769/medium_johrober.JPG",
+    "login": "johrober",
+    "level": 11.55,
+    "intra": "https://profile.intra.42.fr/users/johrober",
+    "correction_point": 1,
+    "wallet": 854,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/eeb7395854e4ae9dd4c641bedbc11b20/small_bchabot.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/45f49082feb50476ed1e20298f3f6db1/medium_bchabot.JPG",
+    "login": "bchabot",
+    "level": 10.55,
+    "intra": "https://profile.intra.42.fr/users/bchabot",
+    "correction_point": 7,
+    "wallet": 645,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/2f51ba4ea76d8eb64c7ff447869e4b42/small_tlafont.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/76e4463fb04bbca7895783d9fe892f96/medium_tlafont.JPG",
+    "login": "tlafont",
+    "level": 10.76,
+    "intra": "https://profile.intra.42.fr/users/tlafont",
+    "correction_point": 33,
+    "wallet": 686,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/94533f781a9e329939bcf588c000deed/small_rlaforge.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/49e4eda7cf423cb2b544cc9ae020a156/medium_rlaforge.JPG",
+    "login": "rlaforge",
+    "level": 10.2,
+    "intra": "https://profile.intra.42.fr/users/rlaforge",
+    "correction_point": 2,
+    "wallet": 5,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/7087f39a317b76dfd712f9b27a592048/small_brda-sil.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/15b05dccffeb90fa9e58a9f60f03da0a/medium_brda-sil.JPG",
+    "login": "brda-sil",
+    "level": 11.51,
+    "intra": "https://profile.intra.42.fr/users/brda-sil",
+    "correction_point": 7,
+    "wallet": 784,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/7b2ba5ef04a11c535b6d35ac78faa58b/small_eblondee.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/3bc452e5635487c371f4e35ead1fdc2c/medium_eblondee.JPG",
+    "login": "eblondee",
+    "level": 13.33,
+    "intra": "https://profile.intra.42.fr/users/eblondee",
+    "correction_point": 11,
+    "wallet": 341,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/97d344a40656b6ece2f6eaa42a49ddb1/small_clorcery.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/9a78ffc9ee0729835a5ee664f65e92c4/medium_clorcery.JPG",
+    "login": "clorcery",
+    "level": 13.91,
+    "intra": "https://profile.intra.42.fr/users/clorcery",
+    "correction_point": 4,
+    "wallet": 722,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/4572953c50e0d362ad7e8655b9c9876a/small_amorel.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/04dc39042b6e9e87843ef5dc614dcc93/medium_amorel.JPG",
+    "login": "amorel",
+    "level": 10.78,
+    "intra": "https://profile.intra.42.fr/users/amorel",
+    "correction_point": 5,
+    "wallet": 305,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/1462fe8497f2511c44bb09bbaf45da75/small_lvignal.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/7e2841e13781ba3789357ad06af7cfd8/medium_lvignal.JPG",
+    "login": "lvignal",
+    "level": 13.51,
+    "intra": "https://profile.intra.42.fr/users/lvignal",
+    "correction_point": 4,
+    "wallet": 340,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/c2e4e6d93b17c37cd33d720be6310c4b/small_equesnel.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/d1434f2094b36bc913a5831d1e5656b4/medium_equesnel.JPG",
+    "login": "equesnel",
+    "level": 10.69,
+    "intra": "https://profile.intra.42.fr/users/equesnel",
+    "correction_point": 9,
+    "wallet": 650,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/71a75c493aa58df737f2c58ed3799512/small_cmieuzet.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/26743e5284b148634db2c1d10d07650c/medium_cmieuzet.JPG",
+    "login": "cmieuzet",
+    "level": 12.13,
+    "intra": "https://profile.intra.42.fr/users/cmieuzet",
+    "correction_point": 4,
+    "wallet": 373,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/1b02ff1fe05feb89b0d57b21cc8f4c15/small_chjoie.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/5dfdd04a618a47e2f009483b2dfa2572/medium_chjoie.JPG",
+    "login": "chjoie",
+    "level": 11.65,
+    "intra": "https://profile.intra.42.fr/users/chjoie",
+    "correction_point": 2,
+    "wallet": 645,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/41606961d34dc4c39d246a9656da7244/small_snourry.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/cd26868fddbd5523039769c56b667115/medium_snourry.JPG",
+    "login": "snourry",
+    "level": 11.07,
+    "intra": "https://profile.intra.42.fr/users/snourry",
+    "correction_point": 0,
+    "wallet": 692,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/b88ae254f579a358841167e995c4ce5e/small_mcochin.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/78cca6b2c94196d85327ff2724edd3db/medium_mcochin.JPG",
+    "login": "mcochin",
+    "level": 10.63,
+    "intra": "https://profile.intra.42.fr/users/mcochin",
+    "correction_point": 4,
+    "wallet": 145,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/de3a87e59f3dca5cbde9a6ecb5e11677/small_stales.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/f891a1fba3657ea59596df4d837dd4b7/medium_stales.JPG",
+    "login": "stales",
+    "level": 11.66,
+    "intra": "https://profile.intra.42.fr/users/stales",
+    "correction_point": 8,
+    "wallet": 40,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/0c3ef6b5db5c7ee9443d5711162daed4/small_ldournoi.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/6fb445030eefd1cbb8bc0c495f8c58e9/medium_ldournoi.JPG",
+    "login": "ldournoi",
+    "level": 10.62,
+    "intra": "https://profile.intra.42.fr/users/ldournoi",
+    "correction_point": 1,
+    "wallet": 1233,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/f37a35b59ee76d8c0f38b03d21ead6cb/small_tnguyen-.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/efd3bfb3a23e6253ab0d8bdc9ac6383c/medium_tnguyen-.jpg",
+    "login": "tnguyen-",
+    "level": 10.41,
+    "intra": "https://profile.intra.42.fr/users/tnguyen-",
+    "correction_point": 31,
+    "wallet": 923,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/14ac99bda70526e867911c7b4743f89b/small_pmailly.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/0862787505f4f334be39fef82dbfd8d1/medium_pmailly.JPG",
+    "login": "pmailly",
+    "level": 12.65,
+    "intra": "https://profile.intra.42.fr/users/pmailly",
+    "correction_point": 2,
+    "wallet": 168,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/6ec603047d8d5584a2c51c593970c8db/small_twinters.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/56d423957902412207969de911d9d9b6/medium_twinters.JPG",
+    "login": "twinters",
+    "level": 10.26,
+    "intra": "https://profile.intra.42.fr/users/twinters",
+    "correction_point": 3,
+    "wallet": 181,
+    "location": "1D4"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/79efb0c20005f2f4b3d7169e31e1e0f2/small_alprival.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/ae25afde696754c1c6d8d5e9d823e83b/medium_alprival.JPG",
+    "login": "alprival",
+    "level": 10.92,
+    "intra": "https://profile.intra.42.fr/users/alprival",
+    "correction_point": 6,
+    "wallet": 669,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/7d27d300e4f868e441640b2b69811324/small_gtelnoff.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/a1d0cbd6155c7dca6cd4ebd24fe5c59c/medium_gtelnoff.JPG",
+    "login": "gtelnoff",
+    "level": 10.52,
+    "intra": "https://profile.intra.42.fr/users/gtelnoff",
+    "correction_point": -3,
+    "wallet": 650,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/a97a0b2feb03c97c6804b0594ce58675/small_rrollin.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/8bba08d3d9a5e15fa6093a60b4377aea/medium_rrollin.JPG",
+    "login": "rrollin",
+    "level": 12.46,
+    "intra": "https://profile.intra.42.fr/users/rrollin",
+    "correction_point": 3,
+    "wallet": 50,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/0743731b322a6c975a63dd81e7331934/small_mafissie.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/836cdf1eb53012686323ca946ce30342/medium_mafissie.JPG",
+    "login": "mafissie",
+    "level": 9.61,
+    "intra": "https://profile.intra.42.fr/users/mafissie",
+    "correction_point": 0,
+    "wallet": 110,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/b9850c8e17c8dd1fdbaea92d340dc9cb/small_slepetit.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/0f0da99f44efc0a866f29c4bdb36ff22/medium_slepetit.JPG",
+    "login": "slepetit",
+    "level": 7.83,
+    "intra": "https://profile.intra.42.fr/users/slepetit",
+    "correction_point": 6,
+    "wallet": 285,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/421156ca7cc01a1237252f307d7afa77/small_fleblanc.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/5169259096a17bba42bc8ccb723b44a7/medium_fleblanc.JPG",
+    "login": "fleblanc",
+    "level": 11.72,
+    "intra": "https://profile.intra.42.fr/users/fleblanc",
+    "correction_point": 1,
+    "wallet": 421,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/b28995575ad33cd45d4c810a69665344/small_kle-guen.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/d44cda3a0e9fc2139245c9b4af91b42c/medium_kle-guen.JPG",
+    "login": "kle-guen",
+    "level": 12.02,
+    "intra": "https://profile.intra.42.fr/users/kle-guen",
+    "correction_point": 2,
+    "wallet": 50,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/d1c82f353061fb2dfd87fe98d5a1602d/small_ajoliet.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/a3418688b8eeca857ef4f1f64f6b1f5e/medium_ajoliet.JPG",
+    "login": "ajoliet",
+    "level": 8.2,
+    "intra": "https://profile.intra.42.fr/users/ajoliet",
+    "correction_point": 20,
+    "wallet": 169,
+    "location": "1C6"
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/50c6fcdef6f1d52014e752fdf4bee46b/small_hde-min.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/0832356c79f53be61d753d6c0163d523/medium_hde-min.JPG",
+    "login": "hde-min",
+    "level": 11.27,
+    "intra": "https://profile.intra.42.fr/users/hde-min",
+    "correction_point": 3,
+    "wallet": 157,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/c7e0221e9e097a2d54d1beee28aa98a6/small_nda-cunh.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/5d0eff6f4e7b5fb15f3908fa348fcc7d/medium_nda-cunh.JPG",
+    "login": "nda-cunh",
+    "level": 11.81,
+    "intra": "https://profile.intra.42.fr/users/nda-cunh",
+    "correction_point": 5,
+    "wallet": 291,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/064fab42b285be0fe66db29e67c7685f/small_mbobin.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/7a7cbee9297d640c8194f3a04aa992ee/medium_mbobin.JPG",
+    "login": "mbobin",
+    "level": 11.51,
+    "intra": "https://profile.intra.42.fr/users/mbobin",
+    "correction_point": 5,
+    "wallet": 3,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/59d341e90d20d3793bf1b65c95f77e87/small_ssubielo.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/a725d74355530f238dd5b3a5b3461401/medium_ssubielo.JPG",
+    "login": "ssubielo",
+    "level": 13.4,
+    "intra": "https://profile.intra.42.fr/users/ssubielo",
+    "correction_point": 0,
+    "wallet": 854,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/c2dd7089e356251cb5bb41393d09bea1/small_achretie.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/2131a9a8d3ba7cfa60cd09f4ca652a93/medium_achretie.JPG",
+    "login": "achretie",
+    "level": 10.48,
+    "intra": "https://profile.intra.42.fr/users/achretie",
+    "correction_point": 3,
+    "wallet": 300,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/dd6df48e610a7ac1e38e6f72372fb50a/small_ngrenoux.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/09b4e478e991c6f60fb0c86ba0bd6ce5/medium_ngrenoux.JPG",
+    "login": "ngrenoux",
+    "level": 10.48,
+    "intra": "https://profile.intra.42.fr/users/ngrenoux",
+    "correction_point": 1,
+    "wallet": 94,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/736d279d090332c945b7d654c24892bd/small_mdaadoun.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/7059ad728dc0e9bfd6e9e3745ee95f2d/medium_mdaadoun.JPG",
+    "login": "mdaadoun",
+    "level": 10.74,
+    "intra": "https://profile.intra.42.fr/users/mdaadoun",
+    "correction_point": 3,
+    "wallet": 302,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/b44cca536e4b4cfb726eeacd93900dfb/small_cmillord.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/b2da25cb601fb069d01907f681c3b88c/medium_cmillord.jpg",
+    "login": "cmillord",
+    "level": 8.56,
+    "intra": "https://profile.intra.42.fr/users/cmillord",
+    "correction_point": 0,
+    "wallet": 169,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/e03d368b0d78e8975fbd04f62d306fc3/small_mrudloff.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/eb2cc6e91e31f7e00bb9ff257409062f/medium_mrudloff.jpg",
+    "login": "mrudloff",
+    "level": 8.59,
+    "intra": "https://profile.intra.42.fr/users/mrudloff",
+    "correction_point": 1,
+    "wallet": 343,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/2dbef5e5cc2a39bc73a0bc63e8d24296/small_vline.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/ff0ddbcc5453e895a072cad036a096d8/medium_vline.jpg",
+    "login": "vline",
+    "level": 11.03,
+    "intra": "https://profile.intra.42.fr/users/vline",
+    "correction_point": -2,
+    "wallet": 145,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/c7143d9bf8ca1aa74ae56d86f71c6f3c/small_gtouzali.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/bf9f02167269b73148544840c0c12ea7/medium_gtouzali.jpg",
+    "login": "gtouzali",
+    "level": 11.4,
+    "intra": "https://profile.intra.42.fr/users/gtouzali",
+    "correction_point": 11,
+    "wallet": 373,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/802c4dbfea65fd4dcf98846d5d73349e/small_lulaens.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/1872e02368697cb9cfa626280e94f1a0/medium_lulaens.JPG",
+    "login": "lulaens",
+    "level": 11.57,
+    "intra": "https://profile.intra.42.fr/users/lulaens",
+    "correction_point": 3,
+    "wallet": 145,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/c4c215eb4393bba1f10e4ae143994a1b/small_jbutte.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/e817c464873cfb81a5d7179800afc545/medium_jbutte.JPG",
+    "login": "jbutte",
+    "level": 11.03,
+    "intra": "https://profile.intra.42.fr/users/jbutte",
+    "correction_point": -4,
+    "wallet": 15,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/87e634d66b488539289fee5c50a51d9c/small_jtoulous.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/c68995967b6400efbe7096abd6b37527/medium_jtoulous.jpg",
+    "login": "jtoulous",
+    "level": 12.29,
+    "intra": "https://profile.intra.42.fr/users/jtoulous",
+    "correction_point": 3,
+    "wallet": 145,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/b7e25ee607c7f440b4dc6a800e09792b/small_nminotte.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/658477f68054ea7f0a6b96f174e186da/medium_nminotte.jpg",
+    "login": "nminotte",
+    "level": 10.76,
+    "intra": "https://profile.intra.42.fr/users/nminotte",
+    "correction_point": 1,
+    "wallet": 145,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/332720fad729ec146d0f9203e05f92dd/small_agoichon.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/4fa186a01b074ba1890cbdbb17114e03/medium_agoichon.JPG",
+    "login": "agoichon",
+    "level": 11.41,
+    "intra": "https://profile.intra.42.fr/users/agoichon",
+    "correction_point": 2,
+    "wallet": 331,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/a189b76064bbd514e5ceb0f9982442bd/small_fjullien.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/2cf8de7a5593050f5a0ac9b691129234/medium_fjullien.jpg",
+    "login": "fjullien",
+    "level": 12.76,
+    "intra": "https://profile.intra.42.fr/users/fjullien",
+    "correction_point": 9,
+    "wallet": 693,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/846bb9308137a685db9bae4d9e94d623/small_nlocusso.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/864c7fe442454bc667431f1ee622fb94/medium_nlocusso.jpg",
+    "login": "nlocusso",
+    "level": 14.3,
+    "intra": "https://profile.intra.42.fr/users/nlocusso",
+    "correction_point": 6,
+    "wallet": 645,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/83083787159b8f4957cda9d43d5a3b23/small_dafranco.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/e67706d6350a36556c80da525738b63d/medium_dafranco.jpg",
+    "login": "dafranco",
+    "level": 11.07,
+    "intra": "https://profile.intra.42.fr/users/dafranco",
+    "correction_point": 1,
+    "wallet": 450,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/837643dc94b60c28cd5dd523b8c80071/small_gpasquet.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/977188fe8644c0b9d57048267921b14a/medium_gpasquet.jpg",
+    "login": "gpasquet",
+    "level": 11.92,
+    "intra": "https://profile.intra.42.fr/users/gpasquet",
+    "correction_point": 3,
+    "wallet": 531,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/1f9b6f186cfe456fa53e6eb8c2b63050/small_cbretton.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/39d6ad56da442f09f4d47e488dd7fe70/medium_cbretton.JPG",
+    "login": "cbretton",
+    "level": 8.56,
+    "intra": "https://profile.intra.42.fr/users/cbretton",
+    "correction_point": 3,
+    "wallet": 169,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/29bc377807e3e9c66efa87f44fbb9f30/small_fle-tolg.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/361e3cd472417d8293f2ca315733d824/medium_fle-tolg.jpg",
+    "login": "fle-tolg",
+    "level": 11.31,
+    "intra": "https://profile.intra.42.fr/users/fle-tolg",
+    "correction_point": -2,
+    "wallet": 9,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/cf92602b4d62983cac10937357a70867/small_jemercie.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/cbefc7a445bfbbaefda8fe7e27c46091/medium_jemercie.jpg",
+    "login": "jemercie",
+    "level": 11.44,
+    "intra": "https://profile.intra.42.fr/users/jemercie",
+    "correction_point": 2,
+    "wallet": 61,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/75aa416fd0d92e41a1faad86cc7e9afc/small_alamizan.JPG",
+    "image_url_medium": "https://cdn.intra.42.fr/users/d9b79ca2bc298224687e2de0d0e7afd6/medium_alamizan.JPG",
+    "login": "alamizan",
+    "level": 10.9,
+    "intra": "https://profile.intra.42.fr/users/alamizan",
+    "correction_point": 3,
+    "wallet": 325,
+    "location": null
+  },
+  {
+    "image_url": "https://cdn.intra.42.fr/users/b5000c489ec69e2b0328378ec90c7a72/small_rsterin.jpg",
+    "image_url_medium": "https://cdn.intra.42.fr/users/594d6f3475ff451d7c0a2f5d7a58261a/medium_rsterin.jpg",
+    "login": "rsterin",
+    "level": 11.35,
+    "intra": "https://profile.intra.42.fr/users/rsterin",
+    "correction_point": 1,
+    "wallet": 650,
+    "location": null
+  }
+]

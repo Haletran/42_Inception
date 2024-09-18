@@ -14,4 +14,6 @@ bash <(wget -qO- https://raw.githubusercontent.com/Haletran/42_Inception/main/sc
 - WORDPRESS
 -  NGINX avec TLSv1.2 ou TLSv1.3 uniquement
 -  WordPress + php-fpm
--  MariaDB 
+-  MariaDB
+- Adminer
+- Redis Cache

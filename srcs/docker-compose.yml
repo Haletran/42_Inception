@@ -39,6 +39,14 @@ services:
       - "3000:3000"
     volumes:
       - homepage_data:/app/
+  adminer:
+    build: requirements/bonus/adminer
+    container_name: adminer
+    networks:
+      - inception
+    ports:
+      - "8081:8030"
+
 networks:
   inception:
     name: inception
@@ -67,4 +75,10 @@ volumes:
     driver_opts:
       type: none
       device: /home/bapasqui/data/homepage
+      o: bind
+  adminer:
+    driver: local
+    driver_opts:
+      type: none
+      device: /home/bapasqui/data/adminer
       o: bind

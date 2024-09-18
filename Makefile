@@ -17,7 +17,7 @@ BCYAN='\033[1;36m'
 NC='\033[0m'
 
 all: print
-	docker compose -f srcs/docker-compose.yml up --build -d
+	docker compose -f srcs/docker-compose.yml up --build -d --remove-orphans
 	@echo $(BGREEN)"\n[ MANDATORY ] :"$(NC)
 	@echo $(BCYAN)"-> Wordpress :"$(NC)
 	@echo $(BGREEN)"\n[ BONUS ] :"$(NC)
@@ -33,10 +33,13 @@ stop:
 
 down:
 	@docker compose -f ./srcs/docker-compose.yml down
-	@docker volume rm srcs_static_data srcs_uptime_data srcs_ftp_data srcs_homepage_data
-	@sudo docker rmi $$(docker images -a -q) -f
-	@docker volume prune -f
-	reset
+	-docker volume rm srcs_static_data srcs_uptime_data srcs_ftp_data srcs_homepage_data
+	-docker container prune -f
+	-docker rmi $$(docker images -a -q)
+	-docker volume prune -f
+	-docker image prune -f -a
+	-docker network prune -f
+	@echo "Do you want to remove all data ? [y/n]" && read ans && [ $${ans:-n} = y ] && make reset || echo "Data kept."
 
 reset:
 	@echo "Resetting all data..."
@@ -45,6 +48,10 @@ reset:
 	@mkdir -p ~/data/uptime-kuma
 	@mkdir -p ~/data/ftp
 	@mkdir -p ~/data/homepage
+	@mkdir -p ~/data/adminer
+
+clean:
+	docker system prune --all --volumes
 
 re: all
 
