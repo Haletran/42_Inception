@@ -33,7 +33,7 @@ stop:
 
 down:
 	@docker compose -f ./srcs/docker-compose.yml down
-	-docker volume rm srcs_static_data srcs_uptime_data srcs_ftp_data srcs_homepage_data
+	-docker volume rm srcs_static_data srcs_uptime_data srcs_ftp_data srcs_homepage_data srcs_wordpress_data srcs_db_data
 	-docker container prune -f
 	-docker rmi $$(docker images -a -q)
 	-docker volume prune -f
@@ -51,6 +51,7 @@ reset:
 	@mkdir -p ~/data/homepage
 	@mkdir -p ~/data/adminer
 	@mkdir -p ~/data/wordpress
+	@mkdir -p ~/data/db
 
 clean:
 	@docker system prune --all --volumes

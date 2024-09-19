@@ -57,6 +57,17 @@ services:
       - inception
     ports:
       - "8081:8030"
+  mariadb:
+    build: requirements/mandatory/mariadb
+    container_name: mariadb
+    networks:
+      - inception
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/www/html
+    restart: on-failure
+
 
 networks:
   inception:
@@ -98,4 +109,10 @@ volumes:
     driver_opts:
       type: none
       device: /home/bapasqui/data/wordpress
+      o: bind
+  db_data:
+    driver: local
+    driver_opts:
+      type: none
+      device: /home/bapasqui/data/db
       o: bind
