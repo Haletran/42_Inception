@@ -39,7 +39,7 @@ services:
     networks:
         - inception
     volumes:
-      - ftp_data:/app/data
+      - wordpress_data:/app/data
     restart: on-failure
   homepage:
     build: requirements/bonus/homepage
@@ -85,12 +85,6 @@ volumes:
     driver_opts:
       type: none
       device: /home/bapasqui/data/uptime-kuma
-      o: bind
-  ftp_data:
-    driver: local
-    driver_opts:
-      type: none
-      device: /home/bapasqui/data/ftp
       o: bind
   homepage_data:
     driver: local

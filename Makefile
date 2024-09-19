@@ -19,7 +19,9 @@ NC='\033[0m'
 all: print
 	docker compose -f srcs/docker-compose.yml up --build -d --remove-orphans
 	@echo $(BGREEN)"\n[ MANDATORY ] :"$(NC)
-	@echo $(BCYAN)"-> Wordpress :"$(NC)
+	@echo $(BCYAN)"-> Wordpress :"$(NC)" https://bapasqui.42.fr"
+	@echo $(BCYAN)"-> Nginx :"$(NC)" https://bapasqui.42.fr"
+	@echo $(BCYAN)"-> MariaDB :"$(NC)" http://bapasqui.42.fr:3036"
 	@echo $(BGREEN)"\n[ BONUS ] :"$(NC)
 	@echo $(BCYAN)"-> Uptime Kuma :"$(NC)" http://bapasqui.42.fr:3001"
 	@echo $(BCYAN)"-> FTP :"$(NC)" ftp://10.11.249.22:21/"
@@ -47,7 +49,6 @@ reset:
 	@sudo rm -rf /home/bapasqui/data/*
 	@mkdir -p ~/data/static_site
 	@mkdir -p ~/data/uptime-kuma
-	@mkdir -p ~/data/ftp
 	@mkdir -p ~/data/homepage
 	@mkdir -p ~/data/adminer
 	@mkdir -p ~/data/wordpress

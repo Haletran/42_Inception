@@ -10,8 +10,9 @@
         ping: https://10.11.249.22
     - MariaDB:
         icon: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets.stickpng.com%2Fthumbs%2F62deb17dff3c6e4b8b5de8c9.png&f=1&nofb=1&ipt=8776c0f331196d49ca69b9b9f05488aa5a0f0ee0e73fc200b61dc124d544eaf1&ipo=images
-        href: http://localhost/
+        href: http://10.11.249.22:3306
         description: MariaDB is awesome
+        ping: http://10.11.249.22:3306
 
 - Bonus:
     - Static_site:
