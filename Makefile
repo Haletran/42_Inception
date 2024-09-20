@@ -25,8 +25,8 @@ all: print
 	@echo $(BGREEN)"\n[ BONUS ] :"$(NC)
 	@echo $(BCYAN)"-> Uptime Kuma :"$(NC)" http://bapasqui.42.fr:3001"
 	@echo $(BCYAN)"-> FTP :"$(NC)" ftp://10.11.249.22:21/"
-	@echo $(BCYAN)"-> Static Site :"$(NC)" http://bapasqui.42.fr:8080"
-	@echo $(BCYAN)"-> Homepage :"$(NC)" http://bapasqui.42.fr:3000" "(take a few seconds to load : js slow)"
+	@echo $(BCYAN)"-> Static Site :"$(NC)" https://bapasqui.42.fr/static_site"
+	@echo $(BCYAN)"-> Homepage :"$(NC)" https://bapasqui.42.fr/homepage" "(take a few seconds to load : js slow)"
 	@echo $(BGREEN)"\n[ DEBUG ] :"$(NC)
 	@echo $(BCYAN)"-> Portainer :"$(NC)" https://bapasqui.42.fr:9443"
 
