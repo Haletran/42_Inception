@@ -57,7 +57,7 @@ reset:
 clean:
 	@docker system prune --all --volumes
 
-re: all
+re: down all
 
 print:
 	@echo  $(GREEN)" ▄█  ███▄▄▄▄    ▄████████    ▄████████    ▄███████▄     ███      ▄█   ▄██████▄  ███▄▄▄▄   "$(NC)

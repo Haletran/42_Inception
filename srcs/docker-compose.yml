@@ -7,8 +7,10 @@ services:
       - "443:443"
     networks:
       - inception
+    depends_on:
+      - wordpress
     volumes:
-      - wordpress_data:/var/www/html
+      - wordpress_data:/var/www/wordpress
     restart: on-failure
   uptime-kuma:
     build: requirements/bonus/uptime-kuma
@@ -67,6 +69,19 @@ services:
     volumes:
       - db_data:/var/www/html
     restart: on-failure
+  wordpress:
+    build: requirements/mandatory/wordpress
+    container_name: wordpress
+    networks:
+      - inception
+    depends_on:
+      - mariadb
+    expose:
+      - "9000"
+    volumes:
+      - wordpress_data:/var/www/wordpress
+    restart: on-failure
+
 
 
 networks:
