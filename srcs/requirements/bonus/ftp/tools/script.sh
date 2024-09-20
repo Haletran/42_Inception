@@ -9,7 +9,7 @@ if ! id -u ftp &>/dev/null; then
 fi
 
 echo "$FTP_USER:$FTP_PASS" | chpasswd
-chown -R $FTP_USER:$FTP_USER /var/www/html/
+chown -R $FTP_USER:$FTP_USER /var/www/wordpress
 echo $FTP_USER | tee -a /etc/vsftpd.userlist &> /dev/null
 
 vsftpd /etc/vsftpd/vsftpd.conf

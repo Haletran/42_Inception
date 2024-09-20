@@ -11,9 +11,7 @@ bash <(wget -qO- https://raw.githubusercontent.com/Haletran/42_Inception/main/sc
 
 ## TODO
 
-- WORDPRESS
--  NGINX avec TLSv1.2 ou TLSv1.3 uniquement
 -  WordPress + php-fpm
--  MariaDB
 - Adminer
 - Redis Cache
+- Need to follow the folder structure of the project
