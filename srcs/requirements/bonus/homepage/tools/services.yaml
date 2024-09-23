@@ -1,8 +1,9 @@
 - Mandatory:
     - Wordpress:
         icon: https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngall.com%2Fwp-content%2Fuploads%2F2016%2F05%2FWordPress-Logo-Free-Download-PNG.png&f=1&nofb=1&ipt=f0e0573f633f45e92441cfbb28fb917cc83f6926dc6c184f49bff0ed3ec84b3d&ipo=images
-        href: http://localhost/
+        href: https://bapasqui.42.fr
         description: Wordpress is awesome
+        ping: https://10.11.249.22
     - Nginx:
         icon: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngrepo.com%2Fdownload%2F354115%2Fnginx.png&f=1&nofb=1&ipt=74154d98b18d769541882965758d8be373565da97f236f3872f50acaaf444eea&ipo=images
         href: https://bapasqui.42.fr
