@@ -12,55 +12,55 @@ services:
     volumes:
       - wordpress_data:/var/www/wordpress
     restart: on-failure
-  uptime-kuma:
-    build: requirements/bonus/uptime-kuma
-    container_name: uptime-kuma
-    ports:
-      - "3001:3001"
-    volumes:
-      - uptime_data:/app/data
-    networks:
-      - inception
-    restart: on-failure
-  static-site:
-    build: requirements/bonus/static-site
-    container_name: static-site
-    ports:
-      - "8080:8080"
-    volumes:
-      - static_data:/app/data
-    networks:
-      - inception
-    restart: on-failure
-  ftp:
-    build: requirements/bonus/ftp
-    container_name: ftp
-    ports:
-      - "21:21"
-      - "21100-21110:21100-21110"
-    networks:
-        - inception
-    depends_on:
-      - wordpress
-    volumes:
-      - wordpress_data:/var/ww/wordpress
-    restart: on-failure
-  homepage:
-    build: requirements/bonus/homepage
-    container_name: homepage
-    networks:
-      - inception
-    ports:
-      - "3000:3000"
-    volumes:
-      - homepage_data:/app/
-  adminer:
-    build: requirements/bonus/adminer
-    container_name: adminer
-    networks:
-      - inception
-    ports:
-      - "8081:8030"
+  # uptime-kuma:
+  #   build: requirements/bonus/uptime-kuma
+  #   container_name: uptime-kuma
+  #   ports:
+  #     - "3001:3001"
+  #   volumes:
+  #     - uptime_data:/app/data
+  #   networks:
+  #     - inception
+  #   restart: on-failure
+  # static-site:
+  #   build: requirements/bonus/static-site
+  #   container_name: static-site
+  #   ports:
+  #     - "8080:8080"
+  #   volumes:
+  #     - static_data:/app/data
+  #   networks:
+  #     - inception
+  #   restart: on-failure
+  # ftp:
+  #   build: requirements/bonus/ftp
+  #   container_name: ftp
+  #   ports:
+  #     - "21:21"
+  #     - "21100-21110:21100-21110"
+  #   networks:
+  #       - inception
+  #   depends_on:
+  #     - wordpress
+  #   volumes:
+  #     - wordpress_data:/var/ww/wordpress
+  #   restart: on-failure
+  # homepage:
+  #   build: requirements/bonus/homepage
+  #   container_name: homepage
+  #   networks:
+  #     - inception
+  #   ports:
+  #     - "3000:3000"
+  #   volumes:
+  #     - homepage_data:/app/
+  # adminer:
+  #   build: requirements/bonus/adminer
+  #   container_name: adminer
+  #   networks:
+  #     - inception
+  #   ports:
+  #     - "8081:8030"
   mariadb:
     build: requirements/mandatory/mariadb
     container_name: mariadb

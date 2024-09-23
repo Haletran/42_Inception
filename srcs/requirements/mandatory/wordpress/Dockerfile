@@ -1,7 +1,7 @@
 FROM debian:bookworm
 
 RUN apt-get update && apt-get upgrade -y && \
-    apt-get install php7.3 wget php-fpm php-mysql mariadb-client -y
+    apt-get install php7.3 curl wget php-fpm php-mysql mariadb-client -y
 
 # RUN mkdir -p /var/www/html/ && \
 #     chown -R www-data:www-data /var/www/html
@@ -13,8 +13,8 @@ RUN apt-get update && apt-get upgrade -y && \
 
 # RUN cp /var/www/html/wp-config-sample.php /var/www/html/wp-config.php
 
-RUN wget https://fr.wordpress.org/wordpress-6.0-fr_FR.tar.gz -P /var/www
-RUN cd /var/www && tar -xzf wordpress-6.0-fr_FR.tar.gz && rm wordpress-6.0-fr_FR.tar.gz
+RUN wget https://fr.wordpress.org/wordpress-6.6-fr_FR.tar.gz -P /var/www
+RUN cd /var/www && tar -xzf wordpress-6.6-fr_FR.tar.gz && rm wordpress-6.6-fr_FR.tar.gz
 RUN	chown -R root:root /var/www/wordpress
 COPY conf/www.conf /etc/php/8.2/fpm/pool.d/www.conf
 
@@ -24,4 +24,4 @@ RUN chmod +x /var/www/setup.sh
 
 EXPOSE 9000
 
-CMD ["php-fpm8.2",  "-F"]
+CMD ["./var/www/setup.sh"]
