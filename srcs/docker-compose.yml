@@ -83,8 +83,18 @@ services:
     volumes:
       - wordpress_data:/var/www/wordpress
     restart: on-failure
-
-
+  redis:
+    build: requirements/bonus/redis
+    container_name: redis
+    networks:
+      - inception
+    ports:
+      - "6379:6379"
+    restart: on-failure
+    depends_on:
+      - wordpress
+    volumes:
+      - wordpress_data:/var/www/wordpress
 
 networks:
   inception:

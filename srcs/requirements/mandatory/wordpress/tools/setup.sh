@@ -6,7 +6,6 @@ curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.pha
 chmod +x wp-cli.phar
 mv wp-cli.phar /usr/local/bin/wp
 
-sleep 10
 mkdir -p /var/www/wordpress
 
 cat <<EOF > /var/www/wordpress/wp-config.php
