@@ -1,16 +1,15 @@
 #!/bin/bash
 
-FTP_USER=ftp
-FTP_PASS=1234
+FTP_USER="ftpuser"
+FTP_PASS="1234"
 
-mkdir -p /var/www/wordpress
-if ! id -u ftp &>/dev/null; then
-    adduser ftp --disabled-password
+if ! cat /etc/passwd | grep "$FTP_USER:" &>/dev/null; then
+    echo "Creating user $FTP_USER"
+    useradd -m $FTP_USER
 fi
 
 echo "$FTP_USER:$FTP_PASS" | chpasswd
-chown -R $FTP_USER:$FTP_USER /var/www/wordpress
-chmod -R 755 /var/www/wordpress
-echo $FTP_USER | tee -a /etc/vsftpd.userlist &> /dev/null
+echo "$FTP_USER" | tee -a /etc/vsftpd.userlist &>/dev/null
 
-vsftpd /etc/vsftpd/vsftpd.conf
+usermod -d /var/www/wordpress $FTP_USER
+exec vsftpd /etc/vsftpd/vsftpd.conf

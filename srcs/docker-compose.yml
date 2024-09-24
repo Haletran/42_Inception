@@ -40,8 +40,6 @@ services:
       - "21100-21110:21100-21110"
     networks:
         - inception
-    depends_on:
-      - wordpress
     volumes:
       - wordpress_data:/var/www/wordpress
     restart: on-failure
