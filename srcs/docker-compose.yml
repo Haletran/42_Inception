@@ -61,6 +61,8 @@ services:
       - mariadb
     ports:
       - "8081:8030"
+    volumes:
+      - db_data:/var/www/html
   mariadb:
     build: requirements/mandatory/mariadb
     container_name: mariadb
@@ -78,6 +80,7 @@ services:
       - inception
     depends_on:
       - mariadb
+      - redis
     expose:
       - "9000"
     volumes:
@@ -91,8 +94,6 @@ services:
     ports:
       - "6379:6379"
     restart: on-failure
-    depends_on:
-      - wordpress
     volumes:
       - wordpress_data:/var/www/wordpress
 
@@ -118,12 +119,6 @@ volumes:
     driver_opts:
       type: none
       device: /home/bapasqui/data/homepage
-      o: bind
-  adminer:
-    driver: local
-    driver_opts:
-      type: none
-      device: /home/bapasqui/data/adminer
       o: bind
   wordpress_data:
     driver: local

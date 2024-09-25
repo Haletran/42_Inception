@@ -1,8 +1,9 @@
 FROM debian:bookworm
 
-RUN apt-get update
+RUN apt-get update && apt-get install -y lsb-release curl gpg redis-server
+COPY conf/redis.conf /var/www/redis.conf
+RUN mv /var/www/redis.conf /etc/redis/redis.conf
 
-COPY tools/script.sh .
-RUN chmod +x script.sh
+EXPOSE 6379
 
-CMD ["./script.sh"]
+CMD ["redis-server", "/etc/redis/redis.conf"]
