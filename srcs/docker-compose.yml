@@ -61,7 +61,7 @@ services:
     depends_on:
       - mariadb
     ports:
-      - "8081:8030"
+      - "9000:9000"
     volumes:
       - db_data:/var/www/html
   mariadb:

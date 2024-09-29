@@ -11,4 +11,8 @@ RUN chmod +x /var/www/html/setup.sh
 RUN mkdir -p /run/php
 RUN chown www-data:www-data /run/php
 
+COPY conf/www.conf /etc/php/8.2/fpm/pool.d/www.conf
+
+EXPOSE 9000
+
 CMD ["./var/www/html/setup.sh"]
