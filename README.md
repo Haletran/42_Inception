@@ -11,7 +11,5 @@ bash <(wget -qO- https://raw.githubusercontent.com/Haletran/42_Inception/main/sc
 
 ## TODO
 
--  WordPress + php-fpm
 - Adminer
-- Redis Cache
 - Need to follow the folder structure of the project

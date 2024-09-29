@@ -11,6 +11,7 @@ services:
       - wordpress
     volumes:
       - wordpress_data:/var/www/wordpress
+      - db_data:/var/www/html
     restart: on-failure
   uptime-kuma:
     build: requirements/bonus/uptime-kuma
@@ -92,7 +93,7 @@ services:
     networks:
       - inception
     ports:
-      - "6379:6379"
+      - "6380:6380"
     restart: on-failure
     volumes:
       - wordpress_data:/var/www/wordpress
