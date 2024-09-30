@@ -17,7 +17,8 @@ BCYAN='\033[1;36m'
 NC='\033[0m'
 
 all: print
-	docker compose -f srcs/docker-compose.yml up --build -d --remove-orphans
+	@bash srcs/requirements/tools/setup_env.sh
+	@docker compose -f srcs/docker-compose.yml up --build -d --remove-orphans
 	@echo $(BGREEN)"\n[ MANDATORY ] :"$(NC)
 	@echo $(BCYAN)"-> Wordpress :"$(NC)" https://bapasqui.42.fr"
 	@echo $(BCYAN)"-> Nginx :"$(NC)" https://bapasqui.42.fr"
@@ -46,6 +47,8 @@ down:
 
 reset:
 	@echo "Resetting all data..."
+	@rm -rf ./secrets
+	@rm -rf ./srcs/.env
 	@sudo rm -rf /home/bapasqui/data/*
 	@mkdir -p ~/data/static_site
 	@mkdir -p ~/data/uptime-kuma
