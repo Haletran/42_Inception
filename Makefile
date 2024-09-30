@@ -17,7 +17,6 @@ BCYAN='\033[1;36m'
 NC='\033[0m'
 
 all: print
-	@if [ ! -f srcs/.env ]; then echo $(BGREEN)"Downloading .env file..."$(NC) && curl -o srcs/.env https://raw.githubusercontent.com/Haletran/42_Inception/refs/heads/main/srcs/.env?token=GHSAT0AAAAAACXK7MDA7NQTKUSYKDOGRZN2ZX2TELA; fi
 	docker compose -f srcs/docker-compose.yml up --build -d --remove-orphans
 	@echo $(BGREEN)"\n[ MANDATORY ] :"$(NC)
 	@echo $(BCYAN)"-> Wordpress :"$(NC)" https://bapasqui.42.fr"
