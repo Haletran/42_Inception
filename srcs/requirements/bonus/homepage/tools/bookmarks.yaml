@@ -10,8 +10,14 @@
           href: https://www.docker.com/
 - Social:
     - Intra:
-        - href: https://profile.intra.42.fr/
+        - abbr: 42
+          href: https://profile.intra.42.fr/
           description: Intra 42 page
     - Slack:
-        - href: https://slack.com/
+        - abbr: SL
+          href: https://slack.com/
           description: Slack is where work happens
+    - Discord:
+        - abbr: DC
+          href: https://discord.com/
+          description: Discord is where the fun happens

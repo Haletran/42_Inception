@@ -1,8 +1,5 @@
 #!/bin/bash
 
-FTP_USER="ftpuser"
-FTP_PASS="1234"
-
 if ! cat /etc/passwd | grep "$FTP_USER:" &>/dev/null; then
     echo "Creating user $FTP_USER"
     useradd -m $FTP_USER

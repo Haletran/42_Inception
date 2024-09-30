@@ -16,15 +16,15 @@ cat <<EOF > wp-config.php
 <?php
 define( 'DB_NAME', 'wordpress' );
 define( 'DB_USER', 'bapasqui' );
-define( 'DB_PASSWORD', '1234' );
-define( 'DB_HOST', '10.11.249.22' );
+define( 'DB_PASSWORD', '$SQL_PASSWORD' );
+define( 'DB_HOST', '$GLOBAL_IP' );
 define( 'DB_CHARSET', 'utf8' );
 define( 'DB_COLLATE', '' );
 define('FS_METHOD', 'direct'); // FIX redis write error
-define('WP_CACHE_KEY_SALT', 'bapasqui.42.fr');
-define('WP_REDIS_HOST', '10.11.249.22');
+define('WP_CACHE_KEY_SALT', '$DOMAIN_NAME');
+define('WP_REDIS_HOST', '$GLOBAL_IP' );
 define('WP_REDIS_CLIENT', 'phpredis');
-define('WP_REDIS_PORT', 6379);
+define('WP_REDIS_PORT', 6380);
 define('WP_REDIS_TIMEOUT', 1);
 define('WP_REDIS_READ_TIMEOUT', 1);
 define('WP_REDIS_DATABASE', 0);
@@ -36,8 +36,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 require_once ABSPATH . 'wp-settings.php';
 EOF
 
-wp core install --url=bapasqui.42.fr --title=BapasquiWebsite --admin_user=bapasqui --admin_password=1234 --admin_email=bapasqui@student.42angouleme.fr --allow-root
-wp user create michel michel@example.com --role=author --user_pass=1234 --allow-root
+wp core install --url=bapasqui.42.fr --title=BapasquiWebsite --admin_user=$WP_ADMIN_USER --admin_password=$WP_ADMIN_PASS --admin_email=$WP_ADMIN_EMAIL --allow-root
+wp user create $WP_AUTHOR_USER $WP_AUTHOR_EMAIl --role=author --user_pass=$WP_AUTHOR_PASS --allow-root
 
 # SETUP REDIS
 wp plugin install redis-cache --allow-root --activate

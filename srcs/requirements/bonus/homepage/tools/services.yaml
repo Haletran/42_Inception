@@ -16,8 +16,13 @@
         ping: http://10.11.249.22:3306
 
 - Bonus:
+    - Adminer:
+        icon: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic-00.iconduck.com%2Fassets.00%2Fadminer-icon-512x425-wnm1tnkw.png&f=1&nofb=1&ipt=171939d8a6405462eb91984248d0a1da10c770eba383822ade99be15a7fcc072&ipo=images
+        href: http://bapasqui.42.fr/adminer
+        description: DB management
+        ping: http://10.11.249.22:9000
     - Static_site:
-        icon: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn4.iconfinder.com%2Fdata%2Ficons%2Fmiscellaneous-131-solid%2F128%2Fwho_guess_people_profile_question_anonymous_suspicious_anybody-512.png&f=1&nofb=1&ipt=ec9132f04771352802affa21d4615656269b91116faca3e7bca168aa3f2c5451&ipo=images
+        icon: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fc8%2F86%2F81%2Fc8868117b1ee55709ce00b2bcc2abfaa.png&f=1&nofb=1&ipt=f4ece595a2df939a6e66bc65ac6ab886a40a687b22264f2314dd6668e6db3a54&ipo=images
         href: http://bapasqui.42.fr:8080
         description: GuessTheLogin game
         ping: http://10.11.249.22:8080
@@ -26,8 +31,3 @@
         href: ftp://bapasqui.42.fr:21
         description: FTP server
         ping: http://10.11.249.22:21
-    - Uptime-Kuma:
-        icon: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic-00.iconduck.com%2Fassets.00%2Fuptime-kuma-icon-2048x1892-iigw6pmz.png&f=1&nofb=1&ipt=7d24f7436d9791062d101682ee97207d38bee17feb94c116b69b7bf23e15e162&ipo=images
-        href: http://bapasqui.42.fr:3001
-        description: Uptime-Kuma
-        ping: http://10.11.249.22:3001

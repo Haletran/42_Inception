@@ -1,6 +1,6 @@
 services:
   nginx:
-    build: requirements/mandatory/nginx
+    build: requirements/nginx
     container_name: nginx
     ports:
       - "80:80"
@@ -12,16 +12,6 @@ services:
     volumes:
       - wordpress_data:/var/www/wordpress
       - db_data:/var/www/html
-    restart: on-failure
-  uptime-kuma:
-    build: requirements/bonus/uptime-kuma
-    container_name: uptime-kuma
-    ports:
-      - "3001:3001"
-    volumes:
-      - uptime_data:/app/data
-    networks:
-      - inception
     restart: on-failure
   static-site:
     build: requirements/bonus/static-site
@@ -41,6 +31,9 @@ services:
       - "21100-21110:21100-21110"
     networks:
         - inception
+    env_file:
+      - ../secrets/credentials.txt
+      - .env
     volumes:
       - wordpress_data:/var/www/wordpress
     restart: on-failure
@@ -51,8 +44,7 @@ services:
       - inception
     ports:
       - "3000:3000"
-    volumes:
-      - homepage_data:/app/
+    restart: on-failure
   adminer:
     build: requirements/bonus/adminer
     container_name: adminer
@@ -64,18 +56,23 @@ services:
       - "9000:9000"
     volumes:
       - db_data:/var/www/html
+    restart: on-failure
   mariadb:
-    build: requirements/mandatory/mariadb
+    build: requirements/mariadb
     container_name: mariadb
     networks:
       - inception
     ports:
       - "3306:3306"
+    env_file:
+      - ../secrets/db_password.txt
+      - ../secrets/db_root_password.txt
+      - .env
     volumes:
       - db_data:/var/www/html
     restart: on-failure
   wordpress:
-    build: requirements/mandatory/wordpress
+    build: requirements/wordpress
     container_name: wordpress
     networks:
       - inception
@@ -84,6 +81,10 @@ services:
       - redis
     expose:
       - "9000"
+    env_file:
+      - ../secrets/credentials.txt
+      - ../secrets/db_password.txt
+      - .env
     volumes:
       - wordpress_data:/var/www/wordpress
     restart: on-failure
@@ -108,18 +109,6 @@ volumes:
     driver_opts:
       type: none
       device: /home/bapasqui/data/static_site
-      o: bind
-  uptime_data:
-    driver: local
-    driver_opts:
-      type: none
-      device: /home/bapasqui/data/uptime-kuma
-      o: bind
-  homepage_data:
-    driver: local
-    driver_opts:
-      type: none
-      device: /home/bapasqui/data/homepage
       o: bind
   wordpress_data:
     driver: local
