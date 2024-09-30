@@ -4,7 +4,7 @@ RUN apt-get update && apt-get upgrade -y && \
     apt-get install nginx openssl -y
 
 RUN rm -rf /etc/nginx/nginx.conf
-COPY tools/nginx.conf /etc/nginx/nginx.conf
+COPY conf/nginx.conf /etc/nginx/nginx.conf
 RUN mkdir -p /var/run/nginx /var/run/php
 #RUN rm -rf /var/www/html
 #RUN chown -R www-data:www-data /var/www/html

@@ -3,7 +3,7 @@ FROM debian:bullseye
 RUN apt-get update && \
     apt-get install vsftpd -y
 
-COPY tools/vsftpd.conf /etc/vsftpd/vsftpd.conf
+COPY conf/vsftpd.conf /etc/vsftpd/vsftpd.conf
 COPY tools/script.sh .
 
 RUN mkdir -p /var/run/vsftpd/empty && \
