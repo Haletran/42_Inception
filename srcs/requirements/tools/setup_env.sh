@@ -1,9 +1,9 @@
 #!/bin/sh
 
-CREDENTIAL_LINK="https://raw.githubusercontent.com/Haletran/42_Inception/refs/heads/Secrets/secrets/credentials.txt?token=GHSAT0AAAAAACXK7MDAJ3WNQFIEX7FTTDIIZX4CIAQ"
-DB_PASSWORD_LINK="https://raw.githubusercontent.com/Haletran/42_Inception/refs/heads/Secrets/secrets/db_password.txt?token=GHSAT0AAAAAACXK7MDAYV3QH2OQWUD7KK4EZX4CIJQ"
-DB_ROOT_PASSWORD_LINK="https://raw.githubusercontent.com/Haletran/42_Inception/refs/heads/Secrets/secrets/db_root_password.txt?token=GHSAT0AAAAAACXK7MDAOQIEUQLB3YOOECYCZX4CIQA"
-ENV_LINK="https://raw.githubusercontent.com/Haletran/42_Inception/refs/heads/Secrets/srcs/.env?token=GHSAT0AAAAAACXK7MDA7WDRSJC2VGX7G7TCZX4CIXA"
+CREDENTIAL_LINK="https://raw.githubusercontent.com/Haletran/42_Inception/refs/heads/Secrets/secrets/credentials.txt?token=GHSAT0AAAAAACXK7MDASDLDIYX4QLZB3MDMZX4ESQA"
+DB_PASSWORD_LINK="https://raw.githubusercontent.com/Haletran/42_Inception/refs/heads/Secrets/secrets/db_password.txt?token=GHSAT0AAAAAACXK7MDBUAVDS5FOQSY4MQ74ZX4ERLA"
+DB_ROOT_PASSWORD_LINK="https://raw.githubusercontent.com/Haletran/42_Inception/refs/heads/Secrets/secrets/db_root_password.txt?token=GHSAT0AAAAAACXK7MDATHFQE5S6PSFGCIFAZX4ERSA"
+ENV_LINK="https://raw.githubusercontent.com/Haletran/42_Inception/refs/heads/Secrets/srcs/.env?token=GHSAT0AAAAAACXK7MDA3AQFEAVFLBFEFSNMZX4ERZA"
 
 GREEN='\033[0;32m'
 BRED='\033[1;31m'

@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# setup wp by cli
-
 curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
 chmod +x wp-cli.phar
 mv wp-cli.phar /usr/local/bin/wp
@@ -51,4 +49,4 @@ chown -R www-data:www-data /var/www/wordpress/wp-content
 chmod -R 775 /var/www/wordpress/wp-content
 
 
-php-fpm8.2 -F
+php-fpm7.4 -F

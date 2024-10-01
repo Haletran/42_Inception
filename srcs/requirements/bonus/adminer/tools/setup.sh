@@ -7,4 +7,4 @@ else
     echo "adminer is already installed"
 fi
 
-php-fpm8.2 -F
+php-fpm7.4 -F

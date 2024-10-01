@@ -1,7 +1,7 @@
-FROM debian:bookworm
+FROM debian:bullseye
 
 RUN apt-get update && apt-get upgrade -y && \
-    apt-get install php7.3 curl wget php-fpm php-mysql mariadb-client php-curl -y
+    apt-get install php7.4 curl wget php7.4-fpm php-mysql mariadb-client php-curl -y
 
 RUN mkdir -p /var/www/html
 RUN wget -O /var/www/html/index.php https://github.com/vrana/adminer/releases/download/v4.8.1/adminer-4.8.1-en.php;
@@ -11,7 +11,7 @@ RUN chmod +x /var/www/html/setup.sh
 RUN mkdir -p /run/php
 RUN chown www-data:www-data /run/php
 
-COPY conf/www.conf /etc/php/8.2/fpm/pool.d/www.conf
+COPY conf/www.conf /etc/php/7.4/fpm/pool.d/www.conf
 
 EXPOSE 9000
 
