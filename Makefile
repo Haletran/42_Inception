@@ -42,13 +42,13 @@ down:
 	-docker volume prune -f
 	-docker image prune -f -a
 	-docker network prune -f
-	-docker builder prune --all
+	-docker builder prune --all --force
 	@echo "Do you want to remove all data ? [y/n]" && read ans && [ $${ans:-n} = y ] && make reset || echo "Data kept."
 
 reset:
 	@echo "Resetting all data..."
-	@rm -rf ./secrets
-	@rm -rf ./srcs/.env
+	-rm -rf ./secrets
+	-rm -rf ./srcs/.env
 	@sudo rm -rf /home/bapasqui/data/*
 	@mkdir -p ~/data/static_site
 	@mkdir -p ~/data/uptime-kuma

@@ -18,12 +18,12 @@
 - Bonus:
     - Adminer:
         icon: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic-00.iconduck.com%2Fassets.00%2Fadminer-icon-512x425-wnm1tnkw.png&f=1&nofb=1&ipt=171939d8a6405462eb91984248d0a1da10c770eba383822ade99be15a7fcc072&ipo=images
-        href: http://bapasqui.42.fr/adminer
+        href: https://bapasqui.42.fr/adminer
         description: DB management
         ping: http://10.11.249.22:9000
     - Static_site:
         icon: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fc8%2F86%2F81%2Fc8868117b1ee55709ce00b2bcc2abfaa.png&f=1&nofb=1&ipt=f4ece595a2df939a6e66bc65ac6ab886a40a687b22264f2314dd6668e6db3a54&ipo=images
-        href: http://bapasqui.42.fr:8080
+        href: https://bapasqui.42.fr/static_site
         description: GuessTheLogin game
         ping: http://10.11.249.22:8080
     - FTP:
