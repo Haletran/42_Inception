@@ -1,6 +1,6 @@
 #!/bin/bash
 
-required_vars=("SQL_ROOT_PASS","SQL_DATABASE_NAME", "SQL_USER", "SQL_PASSWORD")
+required_vars=("SQL_ROOT_PASS" "SQL_DATABASE_NAME" "SQL_USER" "SQL_PASSWORD")
 for var in "${required_vars[@]}"; do
     if [ -z "${!var}" ]; then
         echo "Missing required environment variable $var";

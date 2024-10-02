@@ -31,7 +31,8 @@ all: banner
 	@echo $(BGREEN)"\n[ DEBUG ] :"$(NC)
 	@echo $(BCYAN)"-> Portainer :"$(NC)" https://bapasqui.42.fr:9443"
 
-down: banner
+down:
+	@echo $(BGREEN)"Downing all services..." $(NC)
 	-docker compose -f ./srcs/docker-compose.yml down
 	-docker volume rm srcs_static_data srcs_uptime_data srcs_ftp_data srcs_homepage_data srcs_wordpress_data srcs_db_data
 	-docker container prune -f
@@ -43,16 +44,20 @@ down: banner
 	@echo "Do you want to remove all data ? [y/n]" && read ans && [ $${ans:-n} = y ] && make reset || echo "Data kept."
 
 stop:
+	@echo $(BGREEN)"Stopping all services..." $(NC)
 	@docker compose -f ./srcs/docker-compose.yml stop
 
 reset:
 	@echo "Resetting all data..."
-	-rm -rf ./secrets
-	-rm -rf ./srcs/.env
 	@sudo rm -rf /home/bapasqui/data/*
 	@mkdir -p ~/data/static_site
 	@mkdir -p ~/data/wordpress
 	@mkdir -p ~/data/db
+	@echo "Do you want to remove all secrets ? [y/n]" && read ans && [ $${ans:-n} = y ] && make clean_secrets || echo "Secrets kept."
+
+clean_secrets:
+	-rm -rf ./secrets
+	-rm -rf ./srcs/.env
 
 clean:
 	@docker system prune --all --volumes

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-required_vars=("FTP_USER", "FTP_PASS")
+required_vars=("FTP_USER" "FTP_PASS")
 for var in "${required_vars[@]}"; do
     if [ -z "${!var}" ]; then
         echo "Missing required environment variable $var"
