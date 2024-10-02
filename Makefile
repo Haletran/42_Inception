@@ -31,11 +31,8 @@ all: print
 	@echo $(BGREEN)"\n[ DEBUG ] :"$(NC)
 	@echo $(BCYAN)"-> Portainer :"$(NC)" https://bapasqui.42.fr:9443"
 
-stop:
-	@docker compose -f ./srcs/docker-compose.yml stop
-
 down:
-	@docker compose -f ./srcs/docker-compose.yml down
+	-docker compose -f ./srcs/docker-compose.yml down
 	-docker volume rm srcs_static_data srcs_uptime_data srcs_ftp_data srcs_homepage_data srcs_wordpress_data srcs_db_data
 	-docker container prune -f
 	-docker rmi $$(docker images -a -q)
@@ -45,15 +42,15 @@ down:
 	-docker builder prune --all --force
 	@echo "Do you want to remove all data ? [y/n]" && read ans && [ $${ans:-n} = y ] && make reset || echo "Data kept."
 
+stop:
+	@docker compose -f ./srcs/docker-compose.yml stop
+
 reset:
 	@echo "Resetting all data..."
 	-rm -rf ./secrets
 	-rm -rf ./srcs/.env
 	@sudo rm -rf /home/bapasqui/data/*
 	@mkdir -p ~/data/static_site
-	@mkdir -p ~/data/uptime-kuma
-	@mkdir -p ~/data/homepage
-	@mkdir -p ~/data/adminer
 	@mkdir -p ~/data/wordpress
 	@mkdir -p ~/data/db
 
