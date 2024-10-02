@@ -1,5 +1,15 @@
 #!/bin/bash
 
+required_vars=("DOMAIN_NAME" "SQL_PASSWORD" "WP_ADMIN_USER" "WP_ADMIN_PASS" "WP_ADMIN_EMAIL" "WP_AUTHOR_USER" "WP_AUTHOR_PASS" "WP_AUTHOR_EMAIL" "GLOBAL_IP")
+for var in "${required_vars[@]}"; do
+    if [ -z "${!var}" ]; then
+        echo "Missing required environment variable $var";
+        exit 1;
+    fi
+done
+
+
+
 curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
 chmod +x wp-cli.phar
 mv wp-cli.phar /usr/local/bin/wp

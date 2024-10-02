@@ -16,7 +16,7 @@ BLUE='\033[0;34m'
 BCYAN='\033[1;36m'
 NC='\033[0m'
 
-all: print
+all: banner
 	@bash srcs/requirements/tools/setup_env.sh
 	@docker compose -f srcs/docker-compose.yml up --build -d --remove-orphans
 	@echo $(BGREEN)"\n[ MANDATORY ] :"$(NC)
@@ -31,7 +31,7 @@ all: print
 	@echo $(BGREEN)"\n[ DEBUG ] :"$(NC)
 	@echo $(BCYAN)"-> Portainer :"$(NC)" https://bapasqui.42.fr:9443"
 
-down:
+down: banner
 	-docker compose -f ./srcs/docker-compose.yml down
 	-docker volume rm srcs_static_data srcs_uptime_data srcs_ftp_data srcs_homepage_data srcs_wordpress_data srcs_db_data
 	-docker container prune -f
@@ -59,7 +59,7 @@ clean:
 
 re: down all
 
-print:
+banner:
 	@echo  $(GREEN)" ▄█  ███▄▄▄▄    ▄████████    ▄████████    ▄███████▄     ███      ▄█   ▄██████▄  ███▄▄▄▄   "$(NC)
 	@echo  $(GREEN)"███  ███▀▀▀██▄ ███    ███   ███    ███   ███    ███ ▀█████████▄ ███  ███    ███ ███▀▀▀██▄ "$(NC)
 	@echo  $(GREEN)"███▌ ███   ███ ███    █▀    ███    █▀    ███    ███    ▀███▀▀██ ███▌ ███    ███ ███   ███ "$(NC)
