@@ -12,7 +12,7 @@ services:
     volumes:
       - wordpress_data:/var/www/wordpress
       - db_data:/var/www/html
-    restart: on-failure
+    restart: always
   static-site:
     build: requirements/bonus/static-site
     container_name: static-site
@@ -95,7 +95,7 @@ services:
       - inception
     ports:
       - "6380:6380"
-    restart: on-failure
+    restart: always
     volumes:
       - wordpress_data:/var/www/wordpress
 

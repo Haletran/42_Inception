@@ -35,7 +35,7 @@ require_once ABSPATH . 'wp-settings.php';
 EOF
 
 wp core install --url=bapasqui.42.fr --title=BapasquiWebsite --admin_user=$WP_ADMIN_USER --admin_password=$WP_ADMIN_PASS --admin_email=$WP_ADMIN_EMAIL --allow-root
-wp user create $WP_AUTHOR_USER $WP_AUTHOR_EMAIl --role=author --user_pass=$WP_AUTHOR_PASS --allow-root
+wp --allow-root user create "$WP_AUTHOR_USER" "$WP_AUTHOR_EMAIL" --role=author --user_pass="$WP_AUTHOR_PASS"
 
 # SETUP REDIS
 wp plugin install redis-cache --allow-root --activate
