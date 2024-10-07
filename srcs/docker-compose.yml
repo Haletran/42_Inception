@@ -1,5 +1,6 @@
 services:
   nginx:
+    image: nginx
     build: requirements/nginx
     container_name: nginx
     ports:
@@ -14,6 +15,7 @@ services:
       - db_data:/var/www/html
     restart: always
   static-site:
+    image: static-site
     build: requirements/bonus/static-site
     container_name: static-site
     ports:
@@ -24,6 +26,7 @@ services:
       - inception
     restart: on-failure
   ftp:
+    image: ftp
     build: requirements/bonus/ftp
     container_name: ftp
     ports:
@@ -38,6 +41,7 @@ services:
       - wordpress_data:/var/www/wordpress
     restart: on-failure
   homepage:
+    image: homepage
     build: requirements/bonus/homepage
     container_name: homepage
     networks:
@@ -46,6 +50,7 @@ services:
       - "3000:3000"
     restart: on-failure
   adminer:
+    image: adminer
     build: requirements/bonus/adminer
     container_name: adminer
     networks:
@@ -58,6 +63,7 @@ services:
       - db_data:/var/www/html
     restart: on-failure
   mariadb:
+    image: mariadb
     build: requirements/mariadb
     container_name: mariadb
     networks:
@@ -72,6 +78,7 @@ services:
       - db_data:/var/www/html
     restart: on-failure
   wordpress:
+    image: wordpress
     build: requirements/wordpress
     container_name: wordpress
     networks:
@@ -89,6 +96,7 @@ services:
       - wordpress_data:/var/www/wordpress
     restart: on-failure
   redis:
+    image: redis
     build: requirements/bonus/redis
     container_name: redis
     networks:
