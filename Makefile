@@ -30,6 +30,7 @@ all: banner
 	@echo $(BCYAN)"-> Homepage :"$(NC)" https://bapasqui.42.fr/homepage" "(take a few seconds to load : js slow)"
 	@echo $(BGREEN)"\n[ DEBUG ] :"$(NC)
 	@echo $(BCYAN)"-> Portainer :"$(NC)" https://bapasqui.42.fr:9443"
+	@xdg-open https://bapasqui.42.fr
 
 down:
 	@echo $(BGREEN)"Downing all services..." $(NC)
