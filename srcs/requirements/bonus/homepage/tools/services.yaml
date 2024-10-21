@@ -3,31 +3,31 @@
         icon: https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngall.com%2Fwp-content%2Fuploads%2F2016%2F05%2FWordPress-Logo-Free-Download-PNG.png&f=1&nofb=1&ipt=f0e0573f633f45e92441cfbb28fb917cc83f6926dc6c184f49bff0ed3ec84b3d&ipo=images
         href: https://bapasqui.42.fr
         description: Wordpress is awesome
-        ping: https://10.11.249.22
+        ping: https://localhost
     - Nginx:
         icon: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngrepo.com%2Fdownload%2F354115%2Fnginx.png&f=1&nofb=1&ipt=74154d98b18d769541882965758d8be373565da97f236f3872f50acaaf444eea&ipo=images
         href: https://bapasqui.42.fr
         description: Nginx is awesome
-        ping: https://10.11.249.22
+        ping: https://localhost
     - MariaDB:
         icon: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets.stickpng.com%2Fthumbs%2F62deb17dff3c6e4b8b5de8c9.png&f=1&nofb=1&ipt=8776c0f331196d49ca69b9b9f05488aa5a0f0ee0e73fc200b61dc124d544eaf1&ipo=images
-        href: http://10.11.249.22:3306
+        href: http://localhost:3306
         description: MariaDB is awesome
-        ping: http://10.11.249.22:3306
+        ping: http://localhost:3306
 
 - Bonus:
     - Adminer:
         icon: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic-00.iconduck.com%2Fassets.00%2Fadminer-icon-512x425-wnm1tnkw.png&f=1&nofb=1&ipt=171939d8a6405462eb91984248d0a1da10c770eba383822ade99be15a7fcc072&ipo=images
         href: https://bapasqui.42.fr/adminer
         description: DB management
-        ping: http://10.11.249.22:9000
+        ping: https://localhost:9000
     - Static_site:
         icon: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fc8%2F86%2F81%2Fc8868117b1ee55709ce00b2bcc2abfaa.png&f=1&nofb=1&ipt=f4ece595a2df939a6e66bc65ac6ab886a40a687b22264f2314dd6668e6db3a54&ipo=images
         href: https://bapasqui.42.fr/static_site
         description: GuessTheLogin game
-        ping: http://10.11.249.22:8080
+        ping: https://localhost:8080
     - FTP:
         icon: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn-icons-png.flaticon.com%2F512%2F6303%2F6303288.png&f=1&nofb=1&ipt=228433c9f8602dd0c56e3ef00c5163c0f2cb828d5c7fe7610057d87ba1cfbcf9&ipo=images
         href: ftp://bapasqui.42.fr:21
         description: FTP server
-        ping: http://10.11.249.22:21
+        ping: http://localhost:21

@@ -4,12 +4,13 @@ services:
     build: requirements/nginx
     container_name: nginx
     ports:
-      - "80:80"
       - "443:443"
     networks:
       - inception
     depends_on:
       - wordpress
+    env_file:
+      - .env
     volumes:
       - wordpress_data:/var/www/wordpress
       - db_data:/var/www/html
@@ -116,17 +117,17 @@ volumes:
     driver: local
     driver_opts:
       type: none
-      device: /home/bapasqui/data/static_site
+      device: ~/data/static_site
       o: bind
   wordpress_data:
     driver: local
     driver_opts:
       type: none
-      device: /home/bapasqui/data/wordpress
+      device: ~/data/wordpress
       o: bind
   db_data:
     driver: local
     driver_opts:
       type: none
-      device: /home/bapasqui/data/db
+      device: ~/data/db
       o: bind

@@ -50,7 +50,7 @@ stop:
 
 reset:
 	@echo "Resetting all data..."
-	@sudo rm -rf /home/bapasqui/data/*
+	@sudo rm -rf ~/data/*
 	@mkdir -p ~/data/static_site
 	@mkdir -p ~/data/wordpress
 	@mkdir -p ~/data/db

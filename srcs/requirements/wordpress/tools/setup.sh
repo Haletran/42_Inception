@@ -8,13 +8,14 @@ for var in "${required_vars[@]}"; do
     fi
 done
 
-
-
 curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
 chmod +x wp-cli.phar
 mv wp-cli.phar /usr/local/bin/wp
 
-sleep 10
+while ! mariadb -h $GLOBAL_IP -u bapasqui -p$SQL_PASSWORD -e ";" ; do
+    sleep 1
+done
+
 mkdir -p /var/www/wordpress
 chmod -R 775 /var/www/wordpress
 
