@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: bapasqui <marvin@42.fr>                    +#+  +:+       +#+         #
+#    By: bapasqui <bapasqui@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/09/05 15:35:56 by bapasqui          #+#    #+#              #
-#    Updated: 2024/09/05 15:35:58 by bapasqui         ###   ########.fr        #
+#    Updated: 2025/05/06 14:52:55 by bapasqui         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,12 +24,10 @@ all: banner
 	@echo $(BCYAN)"-> Nginx :"$(NC)" https://bapasqui.42.fr"
 	@echo $(BCYAN)"-> MariaDB :"$(NC)" http://bapasqui.42.fr:3036"
 	@echo $(BGREEN)"\n[ BONUS ] :"$(NC)
-	@echo $(BCYAN)"-> Uptime Kuma :"$(NC)" http://bapasqui.42.fr:3001"
 	@echo $(BCYAN)"-> FTP :"$(NC)" ftp://10.11.249.22:21/"
 	@echo $(BCYAN)"-> Static Site :"$(NC)" https://bapasqui.42.fr/static_site"
+	@echo $(BCYAN)"-> Adminer :"$(NC)" https://bapasqui.42.fr/adminer"
 	@echo $(BCYAN)"-> Homepage :"$(NC)" https://bapasqui.42.fr/homepage" "(take a few seconds to load : js slow)"
-	@echo $(BGREEN)"\n[ DEBUG ] :"$(NC)
-	@echo $(BCYAN)"-> Portainer :"$(NC)" https://bapasqui.42.fr:9443"
 	@xdg-open https://bapasqui.42.fr
 
 down:
